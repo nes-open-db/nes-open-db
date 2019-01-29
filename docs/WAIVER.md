@@ -39,3 +39,13 @@ Licensor acknowledges that Licensee is not liable for any use of the software by
 4. Confidentiality
 
 Licensor acknowledges that Licensee may publish this Waiver along with evidence of compliance from the Licensor publically.
+
+
+
+5. Signature
+
+I, the licensor of the above mentioned Software, hereby confirm that I am the legal owner of the Software and that I accept the above stated agreement between the Licensor and the Licensee.
+
+Licensor name: _____________
+
+Licensor signature: __________
