@@ -15,7 +15,7 @@ additional material along with the ROM data, such as metadata about the software
 logos, screenshots, descriptions of the software et cetera, this data is also
 included in the Software.
 
-"Nes Open DB" is an open software database, currently hosted at nes-open-db.github.io.
+"Nes Open DB" is an open, publically available software database, currently hosted at nes-open-db.github.io.
 
 "NES Open DB Organization" is the GitHub-based organization that runs Nes Open DB. Rights granted to NES Open DB Organization are extended to all members of the GitHub-based organization. In the case that the NES Open DB Organization transfers the database to a new domain, adds new members to the organization or sets up additional servers to host the Software, the rights granted in the document extend to those domains, organization members and servers.
 
