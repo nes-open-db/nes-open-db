@@ -42,7 +42,7 @@ Licensor acknowledges that Licensee may publish this Agreement along with eviden
 
 5. Signature
 
-I, the licensor of the above mentioned Software, hereby confirm that I am the legal owner of the Software and that I accept the above stated Agreement between the Licensor and the Licensee.
+I, the Licensor of the above mentioned Software, hereby confirm that I am the legal owner of the Software and that I accept the above stated Agreement between the Licensor and the Licensee.
 
 Date: [DATE]
 
