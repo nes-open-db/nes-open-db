@@ -10,6 +10,10 @@ The goals of this project:
 
 ## How to use data provided by NES Open DB
 
+If you just want to download some ROMs for your own emulator, go head! Grab what you want and start playing :)
+
+However, if you are planning to redistribute the ROMs or metadata in this database, please these things into account:
+
 *Always* respect the license given along with the data. For example:
 
 * Make sure you attribute the work correctly. Provide information on the author and better yet, link to the author's website.
