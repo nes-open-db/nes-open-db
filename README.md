@@ -14,6 +14,8 @@ If you are a NES Homebrew developer and want your game listed, you can either se
 
 If you are a NES enthusiast that wants to curate the data or help in any other way, please contact me (details below) and tell me what you would like to do.
 
+You can read more about contributing in the `CONTRIBUTING.md` document in the root of this project.
+
 Thank you for your support!
 
 ## Contact information
