@@ -1,4 +1,4 @@
-# nes-open-db.github.io
+# NES Open DB
 A database for freely licensed NES software.
 
 The goals of this project:
