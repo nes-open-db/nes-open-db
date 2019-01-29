@@ -1,0 +1,7 @@
+page_gen-dirs: true
+
+page_gen:
+  - data: roms_index
+    name: key
+    template: romdetail
+    dir: roms
