@@ -12,12 +12,13 @@ The goals of this project:
 
 If you just want to download some ROMs for your personal use, go head! Go browse the `roms\` directory and see what you can find. Grab what you want and start playing :)
 
-However, if you are planning to redistribute the ROMs or metadata in this database, please these things into account:
+However, if you are planning to redistribute the ROMs or metadata in this database, please take these things into account:
 
 *Always* respect the license given along with the data. For example:
 
 * Make sure you attribute the work correctly. Provide information on the author and better yet, link to the author's website.
 * If the ROM is GPL and you are allowing direct downloads of the ROM, you must provide a way for the users to also download the source code for the ROM.
+* The license for each piece of software is in its own `roms/<name_of_the_game` directory. The MIT License in the root folder applies to the components of the NES Open DB **ONLY**.
 
 ## Sounds great! How can I help?
 
