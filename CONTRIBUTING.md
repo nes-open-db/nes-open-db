@@ -5,6 +5,6 @@ evidence of what kind of licensing the software has. If all data is not availabl
 issue and we might be able to figure things out.
 
 It is absolutely essential for this project that the license of the software allows for free distribution of
-the game through our platform, so we require solid evidence or preferably a signed waiver (a template is being drafted in `docs/WAIVER.md`) from the owner of the software themselves. This evidence is to be provided for each piece of software to
+the game through our platform, so we require solid evidence or preferably a signed waiver (a template is being drafted in `docs/AGREEMENT.md`) from the owner of the software themselves. This evidence is to be provided for each piece of software to
 be added to the database. If the licensing terms are unclear, we cannot distribute it, even if the software is otherwise
 widely available on the internet.
