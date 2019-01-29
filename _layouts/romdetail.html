@@ -16,7 +16,7 @@ layout: default
 <p>Tags:{% for tag in page.tags %} {{tag}}{% endfor %}</p>
 {% endif %}
 
-<p>License: <a href="LICENSE">{{ page.license }}</a></p>
+<p>License: <a href="{{ page.licenseLink }}">{{ page.license }}</a></p>
 <p><a href="{{ page.key }}.nes">Download ROM</a></p>
 
 {% if page.screenshots %}

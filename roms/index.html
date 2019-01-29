@@ -23,7 +23,7 @@ title: ROMs - NES Open DB
         <td><a href="{{rom.key}}">{{ rom.title }}</a></td>
         <td>{{ rom.author }}</td>
         <td>{% for tag in rom.tags %} {{tag}}{% endfor %}</td>
-        <td><a href="{{rom.key}}/LICENSE">{{ rom.license }}</a></td>
+        <td><a href="{{ rom.licenseLink }}">{{ rom.license }}</a></td>
         <td><a href="{{rom.key}}/{{rom.key}}.nes">Download</a></td>
       </tr>
     {% endfor %}
