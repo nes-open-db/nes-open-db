@@ -46,7 +46,7 @@ would a random person get some value out of downloading it. If yes, it's probabl
 
 Licensing information and ROM data are essential, but all other information is optional. That said, the more information you can provide and the better it is formatted, the quicker it will be up on the site and the better control you have on how it looks on the site.
 
-## Sounds great! How can I help?
+## How can I help this project?
 
 If you are a NES Homebrew developer and want your game listed, you can either send an email (details below) or open up an issue on the issue tracker of this project.
 
