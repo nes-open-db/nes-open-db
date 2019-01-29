@@ -21,7 +21,7 @@ included in the Software.
 
 "Users" include, but may not be limited to the people browsing the nes-open-db.github.io, operators and developers of scraping software used to fetch data from the NES Open DB or anyone else directly or indirectly accessing the content hosted in the Nes Open DB.
 
-"Waiver" includes all content contained in this document, along with evidence of compliance to the agreement.
+"Agreement" includes all content contained in this document, along with evidence of compliance to the agreement.
 
 2. Software license
 
@@ -38,13 +38,13 @@ Licensor acknowledges that Licensee is not liable for any use of the software by
 
 4. Confidentiality
 
-Licensor acknowledges that Licensee may publish this Waiver along with evidence of compliance from the Licensor publically.
+Licensor acknowledges that Licensee may publish this Agreement along with evidence of compliance from the Licensor publically.
 
 
 
 5. Signature
 
-I, the licensor of the above mentioned Software, hereby confirm that I am the legal owner of the Software and that I accept the above stated agreement between the Licensor and the Licensee.
+I, the licensor of the above mentioned Software, hereby confirm that I am the legal owner of the Software and that I accept the above stated Agreement between the Licensor and the Licensee.
 
 Licensor name: _____________
 
