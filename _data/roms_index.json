@@ -8,7 +8,7 @@
       {"site": "itch.io", "url": "https://adrianmakesgames.itch.io/"},
       {"site": "Twitter", "url": "https://twitter.com/adrian09_01" }
     ],
-    "screenshots": ["1.png"],
+    "screenshots": ["1.gif", "2.gif"],
     "license": "CC-BY-SA 4.0",
     "licenseLink": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt"
   },
