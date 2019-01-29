@@ -24,4 +24,4 @@ Website: http://nes-open-db.github.io
 
 GitHub repository: https://github.com/nes-open-db/nes-open-db.github.io
 
-Project Leader: Anton Rissanen, hello@anton.fi, @antris on GitHub
+Project Leader: Anton Rissanen, hello@anton.fi, [@antris](https://github.com/antris) on GitHub
