@@ -8,6 +8,13 @@ The goals of this project:
 * Provide a machine-readable API that can be accessed by NES emulators to provide beautiful metadata to go along with the game
 * Create a promotional platform for NES Homebrew creators who are willing to distribute their homebrew under a permissive license
 
+## How to use data provided by NES Open DB
+
+*Always* respect the license given along with the data. For example:
+
+* Make sure you attribute the work correctly. Provide information on the author and better yet, link to the author's website.
+* If the ROM is GPL and you are allowing direct downloads of the ROM, you must provide a way for the users to also download the source code for the ROM.
+
 ## Sounds great! How can I help?
 
 If you are a NES Homebrew developer and want your game listed, you can either send an email (details below) or open up an issue on the issue tracker of this project.
