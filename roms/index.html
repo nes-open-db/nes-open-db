@@ -1,0 +1,30 @@
+---
+layout: default
+title: ROMs - NES Open DB
+---
+<h1>ROMs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <td>Title</td>
+      <td>Author</td>
+      <td>License</td>
+      <td>ROM</td>
+      <td>Description</td>
+    </tr>
+  </thead>
+  <tbody>
+    {% for romkey in site.data.roms_index %}
+      <tr>
+        <td>{{ site.data.roms[romkey].title }}</td>
+        <td>{{ site.data.roms[romkey].author }}</td>
+        <td><a href="{{romkey}}/LICENSE">{{ site.data.roms[romkey].license }}</a></td>
+        <td><a href="{{romkey}}/{{romkey}}.nes">Download</a></td>
+        <td></td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+<ul>
+</ul>
