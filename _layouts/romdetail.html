@@ -3,7 +3,12 @@ layout: default
 ---
 
 <h1>{{ page.title }}</h1>
-<p>by {{ page.author }}</p>
+<p>
+  by {{ page.author }}
+  {% if page.authorLinks %}
+  |{% for link in page.authorLinks %} <a href="{{ link.url }}">{{ link.site }}</a>{% endfor %}
+  {% endif %}
+</p>
 <p>License: <a href="LICENSE">{{ page.license }}</a></p>
 <p><a href="{{ page.key }}.nes">Download ROM</a></p>
 
@@ -11,7 +16,7 @@ layout: default
 <h2>Screenshots</h2>
 <div>
   {% for ss in page.screenshots %}
-    <a href="screenshots/{{ss}}"><img src="screenshots/{{ss}}" width="300" /></a>
+    <a href="screenshots/{{ss}}"><img src="screenshots/{{ss}}" width="400" /></a>
   {% endfor %}
 </div>
 {% endif %}
