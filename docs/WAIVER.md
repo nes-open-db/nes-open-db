@@ -1,5 +1,7 @@
 Licensor: [YOUR NAME HERE]
+
 Licensee: NES Open DB (the organization that runs nes-open-db.github.io)
+
 Software: [NAME OF SOFTWARE] (sha-1: [SHA HASH HERE])
 
 1. Definitons
