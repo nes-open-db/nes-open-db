@@ -56,6 +56,11 @@ You can read more about contributing in the `CONTRIBUTING.md` document in the ro
 
 Thank you for your support!
 
+## Running the development server
+
+    bundle install
+    bundle exec jekyll serve
+
 ## Contact information
 
 Website: http://nes-open-db.github.io
