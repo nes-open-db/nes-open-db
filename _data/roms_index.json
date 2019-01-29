@@ -11,5 +11,18 @@
     "screenshots": ["1.png"],
     "license": "CC-BY-SA 4.0",
     "licenseLink": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt"
+  },
+  {
+    "added": "2019-01-29",
+    "key": "melojellos2",
+    "title": "Melo-Jellos 2",
+    "author": "Adrian Makes Games",
+    "authorLinks": [
+      {"site": "itch.io", "url": "https://adrianmakesgames.itch.io/"},
+      {"site": "Twitter", "url": "https://twitter.com/adrian09_01" }
+    ],
+    "screenshots": ["1.png", "2.png", "3.png"],
+    "license": "CC-BY-SA 4.0",
+    "licenseLink": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt"
   }
 ]
