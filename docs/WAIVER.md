@@ -11,7 +11,7 @@ along with all its intellectual property (graphics, music, etc.) and future
 updates of the software that are based on it. If the Licensor provides
 additional material along with the ROM data, such as metadata about the software,
 logos, screenshots, descriptions of the software et cetera, this data is also
-included in the license.
+included in the Software.
 
 2. Software license
 
