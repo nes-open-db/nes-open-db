@@ -10,7 +10,7 @@ The goals of this project:
 
 ## How to use data provided by NES Open DB
 
-If you just want to download some ROMs for your own emulator, go head! Grab what you want and start playing :)
+If you just want to download some ROMs for your personal use, go head! Go browse the `roms\` directory and see what you can find. Grab what you want and start playing :)
 
 However, if you are planning to redistribute the ROMs or metadata in this database, please these things into account:
 
