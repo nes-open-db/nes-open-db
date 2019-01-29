@@ -8,7 +8,7 @@ The goals of this project:
 * Provide a machine-readable API that can be accessed by NES emulators to provide beautiful metadata to go along with the game
 * Create a promotional platform for NES Homebrew creators who are willing to distribute their homebrew under a permissive license
 
-## How to use data provided by NES Open DB
+## How to use data and ROMs provided by NES Open DB
 
 If you just want to download some ROMs for your personal use, go head! Go browse the `roms\` directory and see what you can find. Grab what you want and start playing :)
 
