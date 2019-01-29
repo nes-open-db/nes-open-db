@@ -1,6 +1,4 @@
-Date: [DATE]
-
-Licensor: [YOUR NAME HERE]
+Licensor: [LICENSOR NAME HERE]
 
 Licensee: NES Open DB Organization
 
@@ -45,6 +43,8 @@ Licensor acknowledges that Licensee may publish this Agreement along with eviden
 5. Signature
 
 I, the licensor of the above mentioned Software, hereby confirm that I am the legal owner of the Software and that I accept the above stated Agreement between the Licensor and the Licensee.
+
+Date: [DATE]
 
 Licensor name: _____________
 
