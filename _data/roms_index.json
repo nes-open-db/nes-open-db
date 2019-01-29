@@ -10,7 +10,8 @@
     ],
     "screenshots": ["1.gif", "2.gif"],
     "license": "CC-BY-SA 4.0",
-    "licenseLink": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt"
+    "licenseLink": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+    "tags": ["platformer"]
   },
   {
     "added": "2019-01-29",
@@ -23,6 +24,7 @@
     ],
     "screenshots": ["1.png", "2.png", "3.png"],
     "license": "CC-BY-SA 4.0",
-    "licenseLink": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt"
+    "licenseLink": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+    "tags": ["puzzle"]
   }
 ]
