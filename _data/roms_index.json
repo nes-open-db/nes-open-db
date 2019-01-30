@@ -9,7 +9,8 @@
         "key": "adrianmakesgames"
       }
     ],
-    "screenshots": ["1.gif", "2.gif"],
+    "romLink": "/roms/megamountain/megamountain.nes",
+    "screenshots": ["/roms/megamountain/screenshots/1.gif", "/roms/megamountain/screenshots/2.gif"],
     "license": "CC-BY-SA 4.0",
     "licenseLink": "https://creativecommons.org/licenses/by-sa/4.0/",
     "tags": ["platformer"]
@@ -24,7 +25,8 @@
         "key": "adrianmakesgames"
       }
     ],
-    "screenshots": ["1.png", "2.png", "3.png"],
+    "romLink": "/roms/melojellos2/melojellos2.nes",
+    "screenshots": ["/roms/melojellos2/screenshots/1.png", "/roms/melojellos2/screenshots/2.png", "/roms/melojellos2/screenshots/3.png"],
     "license": "CC-BY-SA 4.0",
     "licenseLink": "https://creativecommons.org/licenses/by-sa/4.0/",
     "tags": ["puzzle"]
@@ -39,7 +41,8 @@
         "key": "nathantolbert"
       }
     ],
-    "screenshots": ["1.png"],
+    "romLink": "/roms/robo-ninja-climb/robo-ninja-climb.nes",
+    "screenshots": ["/roms/super-homebrew-war/screenshots/1.png"],
     "license": "CC BY-NC-ND 3.0",
     "licenseLink": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
     "tags": ["action"]
@@ -54,7 +57,8 @@
         "key": "nathantolbert"
       }
     ],
-    "screenshots": ["1.png", "2.png"],
+    "romLink": "/roms/super-homebrew-war/super-homebrew-war.nes",
+    "screenshots": ["/roms/super-homebrew-war/screenshots/1.png", "roms/super-homebrew-war/screenshots/2.png"],
     "license": "CC BY-NC-ND 3.0",
     "licenseLink": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
     "tags": ["fighting"]

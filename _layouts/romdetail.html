@@ -28,13 +28,13 @@ layout: default
 {% endif %}
 
 <p>License: <a href="{{ page.licenseLink }}">{{ page.license }}</a></p>
-<p><a href="{{ page.key }}.nes">Download ROM</a></p>
+<p><a href="{{ page.romLink }}">Download ROM</a></p>
 
 {% if page.screenshots %}
 <h2>Screenshots</h2>
 <div>
   {% for ss in page.screenshots %}
-    <a href="screenshots/{{ss}}"><img src="screenshots/{{ss}}" width="400" /></a>
+    <a href="{{ss}}"><img src="{{ss}}" width="400" /></a>
   {% endfor %}
 </div>
 {% endif %}
