@@ -64,7 +64,7 @@ If you are a NES enthusiast that wants to curate the data and help developers ge
 
 ### Developers
 
-There are plenty of things you can do as a developer in this project. You may develop plugins for existing emulators that integrate with Nes Open DB.
+There are plenty of things you can do as a developer in this project. You may develop plugins for existing emulators that integrate with Nes Open DB, work on the website, etc. What would you like to do?
 
 ### Designers
 
