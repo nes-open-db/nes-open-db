@@ -73,7 +73,7 @@ Thank you for your support! There are several fronts that we need help with:
 
 ### Homebrew authors
 
-If you are a NES Homebrew developer and want your game listed, you can either send an email (details below) or open up an issue on the issue tracker of this project.
+If you are a NES Homebrew developer and want your game listed, see instruction above in the section "I am an author and I want my NES homebrew on the site!"
 
 ### Curators
 
@@ -81,7 +81,7 @@ If you are a NES enthusiast that wants to curate the data and help developers ge
 
 ### Developers
 
-There are plenty of things you can do as a developer in this project. You may develop plugins for existing emulators that integrate with Nes Open DB.
+There are plenty of things you can do as a developer in this project. You may develop plugins for existing emulators that integrate with Nes Open DB, work on the website, etc. What would you like to do?
 
 ### Designers
 
@@ -93,10 +93,25 @@ It would be great to host some well-written reviews on the site. If you have lot
 scene and you have the best words, letters, paragraphs and all that stuff, don't hesitate to send a pull request!
 The more authoritative person you are in the scene, the more valuable your reviews are to us!
 
+### NES emulator developers
+
+If you want to supercharge your NES emulator by integrating it with NES Open DB, please contact us!
+
 ## Running the development server
 
     bundle install
     bundle exec jekyll serve
+
+## Experimental JSON API
+
+There is an experimental API for the NES Open DB which is basically a static JSON dump of all metadata on the site.
+I do not recommend using this API for critical production services. A more stable API is coming up.
+
+JSON dump at https://nes-open-db.github.io/api/v1/rawdump.json
+
+JSONP dump at https://nes-open-db.github.io/api/v1/rawdump.json
+
+If you are using this API for your work, please take care of **respecting the licenses**, especially regarding proper attribution.
 
 ## Contact information
 

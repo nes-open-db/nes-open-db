@@ -102,6 +102,17 @@ If you want to supercharge your NES emulator by integrating it with NES Open DB,
     bundle install
     bundle exec jekyll serve
 
+## Experimental JSON API
+
+There is an experimental API for the NES Open DB which is basically a static JSON dump of all metadata on the site.
+I do not recommend using this API for critical production services. A more stable API is coming up.
+
+JSON dump at https://nes-open-db.github.io/api/v1/rawdump.json
+
+JSONP dump at https://nes-open-db.github.io/api/v1/rawdump.json
+
+If you are using this API for your work, please take care of **respecting the licenses**, especially regarding proper attribution.
+
 ## Contact information
 
 Website: http://nes-open-db.github.io
