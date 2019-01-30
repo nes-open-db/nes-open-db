@@ -76,7 +76,7 @@ It would be great to host some well-written reviews on the site. If you have lot
 scene and you have the best words, letters, paragraphs and all that stuff, don't hesitate to send a pull request!
 The more authoritative person you are in the scene, the more valuable your reviews are to us!
 
-### NES Emulator developers
+### NES emulator developers
 
 If you want to supercharge your NES emulator by integrating it with NES Open DB, please contact us!
 
