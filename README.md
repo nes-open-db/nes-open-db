@@ -1,5 +1,5 @@
 # NES Open DB
-A database for freely licensed NES software.
+A database for freely licensed NES (Nintendo Entertainment System) software.
 
 The goals of this project:
 
