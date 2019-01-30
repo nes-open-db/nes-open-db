@@ -8,6 +8,23 @@ The goals of this project:
 * Provide a machine-readable API that can be accessed by NES emulators to provide beautiful metadata to go along with the game
 * Create a promotional platform for NES Homebrew creators who are willing to distribute their homebrew under a permissive license
 
+Table of Contents
+=================
+
+   * [NES Open DB](#nes-open-db)
+      * [How to use data and ROMs provided by NES Open DB](#how-to-use-data-and-roms-provided-by-nes-open-db)
+      * [I am an author and I want my NES homebrew on the site!](#i-am-an-author-and-i-want-my-nes-homebrew-on-the-site)
+         * [How to submit your software using a pull request](#how-to-submit-your-software-using-a-pull-request)
+      * [There is something I want to change in the website or the database](#there-is-something-i-want-to-change-in-the-website-or-the-database)
+      * [How can I help this project?](#how-can-i-help-this-project)
+         * [Homebrew authors](#homebrew-authors)
+         * [Curators](#curators)
+         * [Developers](#developers)
+         * [Designers](#designers)
+         * [Reviewers](#reviewers)
+      * [Running the development server](#running-the-development-server)
+      * [Contact information](#contact-information)
+
 ## How to use data and ROMs provided by NES Open DB
 
 If you just want to download some ROMs for your personal use, go head! Go [browse the ROMs](https://nes-open-db.github.io/roms) and see what you can find. Grab what you want and start playing :)
