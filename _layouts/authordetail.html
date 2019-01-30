@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<h1>{{ page.name }}</h1>
+
+{% if page.links %}
+  <p>{% for link in page.links %}<a href="{{ link.url }}">{{ link.site }}</a>{% endfor %}</p>
+{% endif %}

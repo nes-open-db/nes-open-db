@@ -3,10 +3,11 @@
     "added": "2019-01-29",
     "key": "megamountain",
     "title": "Mega Mountain: NES Edition",
-    "author": "Adrian Makes Games",
-    "authorLinks": [
-      {"site": "itch.io", "url": "https://adrianmakesgames.itch.io/"},
-      {"site": "Twitter", "url": "https://twitter.com/adrian09_01" }
+    "authors": [
+      {
+        "role": "main",
+        "key": "adrianmakesgames"
+      }
     ],
     "screenshots": ["1.gif", "2.gif"],
     "license": "CC-BY-SA 4.0",
@@ -17,10 +18,11 @@
     "added": "2019-01-29",
     "key": "melojellos2",
     "title": "Melo-Jellos 2",
-    "author": "Adrian Makes Games",
-    "authorLinks": [
-      {"site": "itch.io", "url": "https://adrianmakesgames.itch.io/"},
-      {"site": "Twitter", "url": "https://twitter.com/adrian09_01" }
+    "authors": [
+      {
+        "role": "main",
+        "key": "adrianmakesgames"
+      }
     ],
     "screenshots": ["1.png", "2.png", "3.png"],
     "license": "CC-BY-SA 4.0",
@@ -31,9 +33,11 @@
     "added": "2019-01-30",
     "key": "robo-ninja-climb",
     "title": "Robo-Ninja Climb",
-    "author": "Nathan Tolbert",
-    "authorLinks": [
-      {"site": "Website", "url": "http://www.bitethechili.com"}
+    "authors": [
+      {
+        "role": "main",
+        "key": "nathantolbert"
+      }
     ],
     "screenshots": ["1.png"],
     "license": "CC BY-NC-ND 3.0",
