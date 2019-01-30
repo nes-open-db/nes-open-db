@@ -56,7 +56,7 @@ Thank you for your support! There are several fronts that we need help with:
 
 ### Homebrew authors
 
-If you are a NES Homebrew developer and want your game listed, you can either send an email (details below) or open up an issue on the issue tracker of this project.
+If you are a NES Homebrew developer and want your game listed, see instruction above in the section "I am an author and I want my NES homebrew on the site!"
 
 ### Curators
 
