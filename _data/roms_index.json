@@ -43,5 +43,20 @@
     "license": "CC BY-NC-ND 3.0",
     "licenseLink": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
     "tags": ["action"]
+  },
+  {
+    "added": "2019-01-30",
+    "key": "super-homebrew-war",
+    "title": "Super Homebrew War",
+    "authors": [
+      {
+        "role": "main",
+        "key": "nathantolbert"
+      }
+    ],
+    "screenshots": ["1.png", "2.png"],
+    "license": "CC BY-NC-ND 3.0",
+    "licenseLink": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "tags": ["action"]
   }
 ]
