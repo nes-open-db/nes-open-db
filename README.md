@@ -9,7 +9,6 @@ The goals of this project:
 * Create a promotional platform for NES Homebrew creators who are willing to distribute their homebrew under a permissive license
 
 Table of Contents
-=================
 
    * [NES Open DB](#nes-open-db)
       * [How to use data and ROMs provided by NES Open DB](#how-to-use-data-and-roms-provided-by-nes-open-db)
@@ -22,7 +21,9 @@ Table of Contents
          * [Developers](#developers)
          * [Designers](#designers)
          * [Reviewers](#reviewers)
+         * [NES emulator developers](#nes-emulator-developers)
       * [Running the development server](#running-the-development-server)
+      * [Experimental JSON API](#experimental-json-api)
       * [Contact information](#contact-information)
 
 ## How to use data and ROMs provided by NES Open DB
