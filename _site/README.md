@@ -52,13 +52,29 @@ Please submit a pull request or an issue to our GitHub page. If your changes are
 
 ## How can I help this project?
 
+Thank you for your support! There are several fronts that we need help with:
+
+### Homebrew authors
+
 If you are a NES Homebrew developer and want your game listed, you can either send an email (details below) or open up an issue on the issue tracker of this project.
 
-If you are a NES enthusiast that wants to curate the data or help in any other way, please contact me (details below) and tell me what you would like to do.
+### Curators
 
-You can read more about contributing in the `CONTRIBUTING.md` document in the root of this project.
+If you are a NES enthusiast that wants to curate the data and help developers get their ROMs on the site, please contact or simply go on Google, try some homebrews, and convince the authors to let you submit their work into the database.
 
-Thank you for your support!
+### Developers
+
+There are plenty of things you can do as a developer in this project. You may develop plugins for existing emulators that integrate with Nes Open DB.
+
+### Designers
+
+Have you seen the website? Yeah, it needs work... on brand design, graphic design, etc.
+
+### Reviewers
+
+It would be great to host some well-written reviews on the site. If you have lots of knowledge of the NES homebrew
+scene and you have the best words, letters, paragraphs and all that stuff, don't hesitate to send a pull request!
+The more authoritative person you are in the scene, the more valuable your reviews are to us!
 
 ## Running the development server
 
