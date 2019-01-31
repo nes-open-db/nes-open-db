@@ -1,4 +1,7 @@
 # NES Open DB
+
+![NES Open DB logo](https://nes-open-db.github.io/logo_animated.gif)
+
 A database for freely licensed NES (Nintendo Entertainment System) software.
 
 The goals of this project:
