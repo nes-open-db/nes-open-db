@@ -4,48 +4,49 @@ title: ROMs - NES Open DB
 ---
 
 <div class="pure-u-1">
-  <p><a href="/">&lt; Back to Home</a></p>
+  <main>
+    <p><a href="/">&lt; Back to Home</a></p>
 
-  <h1>ROMs</h1>
+    <h1>ROMs</h1>
 
-  <table class="pure-table">
-    <thead>
-      <tr>
-        <td>Title</td>
-        <td>Author</td>
-        <td>Released</td>
-        <td>Tags</td>
-        <td>License</td>
-        <td>ROM</td>
-      </tr>
-    </thead>
-    <tbody>
-      {% for rom in site.data.roms_index %}
+    <table class="pure-table">
+      <thead>
         <tr>
-          <td><a href="{{rom.key}}">{{ rom.title }}</a></td>
-          <td>
-            {% if rom.authors.size == 1 %}
-              {% assign soleauthor = rom.authors[0] %}
-              {% assign soleauthor_profile = site.data.authors_index[soleauthor.key] %}
-              {{ soleauthor_profile.name }}
-            {% else %}
-              {% for author in rom.authors %}
-                {% assign author_profile = site.data.authors_index[author.key] %}
-                {%- unless forloop.first %}, {% endunless %}{{ author_profile.name }}
-              {% endfor %}
-            {% endif %}
-          </td>
-          <td>{{ rom.released }}</td>
-          <td>{% for tag in rom.tags %} {{tag}}{% endfor %}</td>
-          <td><a href="{{ rom.licenseLink }}">{{ rom.license }}</a></td>
-          <td><a href="{{rom.key}}/{{rom.key}}.nes">Download</a></td>
+          <td>Title</td>
+          <td>Author</td>
+          <td>Released</td>
+          <td>Tags</td>
+          <td>License</td>
+          <td>ROM</td>
         </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-  <ul>
-  </ul>
-
-  <p><a href="https://github.com/nes-open-db/nes-open-db.github.io#i-am-an-author-and-i-want-my-nes-homebrew-on-the-site">Submit your own homebrew!</a></p>
+      </thead>
+      <tbody>
+        {% for rom in site.data.roms_index %}
+          <tr>
+            <td><a href="{{rom.key}}">{{ rom.title }}</a></td>
+            <td>
+              {% if rom.authors.size == 1 %}
+                {% assign soleauthor = rom.authors[0] %}
+                {% assign soleauthor_profile = site.data.authors_index[soleauthor.key] %}
+                {{ soleauthor_profile.name }}
+              {% else %}
+                {% for author in rom.authors %}
+                  {% assign author_profile = site.data.authors_index[author.key] %}
+                  {%- unless forloop.first %}, {% endunless %}{{ author_profile.name }}
+                {% endfor %}
+              {% endif %}
+            </td>
+            <td>{{ rom.released }}</td>
+            <td>{% for tag in rom.tags %} {{tag}}{% endfor %}</td>
+            <td><a href="{{ rom.licenseLink }}">{{ rom.license }}</a></td>
+            <td><a href="{{rom.key}}/{{rom.key}}.nes">Download</a></td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <ul>
+    </ul>
+    <p><a href="https://github.com/nes-open-db/nes-open-db.github.io#i-am-an-author-and-i-want-my-nes-homebrew-on-the-site">Submit your own homebrew!</a></p>
+  </main>
 
 </div>

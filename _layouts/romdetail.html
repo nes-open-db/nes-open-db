@@ -2,42 +2,44 @@
 layout: default
 ---
 <div class="pure-u-1">
-  <p><a href="/roms">&lt; Back to ROMs</a></p>
+  <main>
+    <p><a href="/roms">&lt; Back to ROMs</a></p>
 
-  <h1>{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>
 
-  {% if page.authors.size == 1 %}
-    {% assign soleauthor = page.authors[0] %}
-    {% assign soleauthor_profile = site.data.authors_index[soleauthor.key] %}
+    {% if page.authors.size == 1 %}
+      {% assign soleauthor = page.authors[0] %}
+      {% assign soleauthor_profile = site.data.authors_index[soleauthor.key] %}
 
-    <p>
-      by {{ soleauthor_profile.name }}
-      {% if soleauthor_profile.links %}
-      |{% for link in soleauthor_profile.links %} <a href="{{ link.url }}">{{ link.site }}</a>{% endfor %}
-      {% endif %}
-    </p>
-  {% else %}
-    by
-    {% for author in authors %}
-      {%- unless forloop.first %}, {% endunless %}{{ author.name }}
-    {% endfor %}
-  {% endif %}
+      <p>
+        by {{ soleauthor_profile.name }}
+        {% if soleauthor_profile.links %}
+        |{% for link in soleauthor_profile.links %} <a href="{{ link.url }}">{{ link.site }}</a>{% endfor %}
+        {% endif %}
+      </p>
+    {% else %}
+      by
+      {% for author in authors %}
+        {%- unless forloop.first %}, {% endunless %}{{ author.name }}
+      {% endfor %}
+    {% endif %}
 
-  <p>Released: {{ page.released }}</p>
+    <p>Released: {{ page.released }}</p>
 
-  {% if page.tags %}
-  <p>Tags:{% for tag in page.tags %} {{tag}}{% endfor %}</p>
-  {% endif %}
+    {% if page.tags %}
+    <p>Tags:{% for tag in page.tags %} {{tag}}{% endfor %}</p>
+    {% endif %}
 
-  <p>License: <a href="{{ page.licenseLink }}">{{ page.license }}</a></p>
-  <p><a href="{{ page.romLink }}">Download ROM</a></p>
+    <p>License: <a href="{{ page.licenseLink }}">{{ page.license }}</a></p>
+    <p><a href="{{ page.romLink }}">Download ROM</a></p>
 
-  {% if page.screenshots %}
-  <h2>Screenshots</h2>
-  <div>
-    {% for ss in page.screenshots %}
-      <a href="{{ss}}"><img src="{{ss}}" width="400" /></a>
-    {% endfor %}
-  </div>
-  {% endif %}
+    {% if page.screenshots %}
+    <h2>Screenshots</h2>
+    <div>
+      {% for ss in page.screenshots %}
+        <a href="{{ss}}"><img src="{{ss}}" width="400" /></a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </main>
 </div>
