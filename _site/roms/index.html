@@ -27,11 +27,15 @@
         margin: 0 auto;
         text-align: center;
       }
+      .romGrid {
+        display: flex;
+      }
       .gridRom {
+        box-sizing: border-box;
         padding: 0 1em;
         margin: 0 0 1em 0;
-        border: 1px solid #333;
         background: #222;
+        display: block;
       }
       .gridRom h2 {
         margin: 0.75em 0 0 0;
@@ -50,10 +54,10 @@
     <main>
       <p><a href="/">&lt; Back to Home</a></p>
       <h1>ROMs</h1>
-      
-        <div class="pure-u-1 pure-u-md-1-3">
-          <a href="/roms/megamountain/" class="unstyledLink">
-            <article class="gridRom">
+      <div class="pure-g" class="romGrid">
+        
+          <a href="/roms/megamountain/" class="unstyledLink gridRom pure-u-sm-1-1 pure-u-md-1-2 pure-u-lg-1-3">
+            <article>
               <h2>Mega Mountain: NES Edition</h2>
               <p>
                 by
@@ -67,11 +71,9 @@
               <p><img src="/roms/megamountain/screenshots/1.gif" style="display: block; width: 100%"></img></p>
             </article>
           </a>
-        </div>
-      
-        <div class="pure-u-1 pure-u-md-1-3">
-          <a href="/roms/melojellos2/" class="unstyledLink">
-            <article class="gridRom">
+          
+          <a href="/roms/melojellos2/" class="unstyledLink gridRom pure-u-sm-1-1 pure-u-md-1-2 pure-u-lg-1-3">
+            <article>
               <h2>Melo-Jellos 2</h2>
               <p>
                 by
@@ -85,11 +87,9 @@
               <p><img src="/roms/melojellos2/screenshots/1.png" style="display: block; width: 100%"></img></p>
             </article>
           </a>
-        </div>
-      
-        <div class="pure-u-1 pure-u-md-1-3">
-          <a href="/roms/robo-ninja-climb/" class="unstyledLink">
-            <article class="gridRom">
+          
+          <a href="/roms/robo-ninja-climb/" class="unstyledLink gridRom pure-u-sm-1-1 pure-u-md-1-2 pure-u-lg-1-3">
+            <article>
               <h2>Robo-Ninja Climb</h2>
               <p>
                 by
@@ -103,11 +103,9 @@
               <p><img src="/roms/robo-ninja-climb/screenshots/1.png" style="display: block; width: 100%"></img></p>
             </article>
           </a>
-        </div>
-      
-        <div class="pure-u-1 pure-u-md-1-3">
-          <a href="/roms/super-homebrew-war/" class="unstyledLink">
-            <article class="gridRom">
+          
+          <a href="/roms/super-homebrew-war/" class="unstyledLink gridRom pure-u-sm-1-1 pure-u-md-1-2 pure-u-lg-1-3">
+            <article>
               <h2>Super Homebrew War</h2>
               <p>
                 by
@@ -121,8 +119,8 @@
               <p><img src="/roms/super-homebrew-war/screenshots/1.png" style="display: block; width: 100%"></img></p>
             </article>
           </a>
+          
         </div>
-      
       </tbody>
     </table>
     <ul>

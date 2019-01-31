@@ -7,10 +7,10 @@ title: ROMs - NES Open DB
     <main>
       <p><a href="/">&lt; Back to Home</a></p>
       <h1>ROMs</h1>
-      {% for rom in site.data.roms_index %}
-        <div class="pure-u-1 pure-u-md-1-3">
-          <a href="{{ rom.detailsLink }}" class="unstyledLink">
-            <article class="gridRom">
+      <div class="pure-g" class="romGrid">
+        {% for rom in site.data.roms_index %}
+          <a href="{{ rom.detailsLink }}" class="unstyledLink gridRom pure-u-sm-1-1 pure-u-md-1-2 pure-u-lg-1-3">
+            <article>
               <h2>{{ rom.title }}</h2>
               <p>
                 by
@@ -29,8 +29,8 @@ title: ROMs - NES Open DB
               <p><img src="{{ rom.screenshots[0] }}" style="display: block; width: 100%"></img></p>
             </article>
           </a>
+          {% endfor %}
         </div>
-      {% endfor %}
       </tbody>
     </table>
     <ul>
