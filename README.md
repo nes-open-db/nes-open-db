@@ -53,6 +53,8 @@ would a random person get some value out of downloading it. If yes, it's probabl
 
 ### How to submit your software using a pull request
 
+Filling the submission form is enough, but in the case that you want better control on how the metadata is formatted or want your ROM to be added to the site faster, you can save our time by making a pull request, adding your ROM and metadata directly to the database.
+
 1. Fork this repository
 2. Go to your new fork and find the ROM index at `_data/roms_index.json`. Add a new entry to the list with as much information about your ROM as possible.
 3. Create a new directory under `roms/` and add your ROM file and associated extra content in the new directory.
