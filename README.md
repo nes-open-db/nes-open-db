@@ -99,6 +99,10 @@ The more authoritative person you are in the scene, the more valuable your revie
 
 ### NES emulator developers
 
+If you have an emulator that could be embedded to the NES Open DB website so that people can play games right in the browser...
+
+OR
+
 If you want to supercharge your NES emulator by integrating it with NES Open DB, please contact us!
 
 ## Running the development server
