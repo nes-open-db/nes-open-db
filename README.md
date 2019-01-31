@@ -45,9 +45,7 @@ However, if you are planning to redistribute the ROMs or metadata in this databa
 
 Great! As long as you are the owner of all the intellectual property contained in the software, you are free to submit your work.
 
-If you are not technically minded, you can simply contact us (information below) and we might be able to do the work for you. All you need is to send us the ROM and give us permission to distribute it.
-
-However, if you're comfortable with using git, GitHub and editing some JSON files, you can do submit your work directly to the database by issuing a pull request to our issue tracker.
+We have a [submission form](https://nes-open-db.github.io/submit/) at our website for homebrew authors. If you encounter a problem with the form, don't be afraid to contact us directly with the contact details below.
 
 Please note that if your ROM is a minimal-effort project with questionable value to the general public, we might
 not add it to the database. Your software does not have to be perfect or even great; just think to yourself
