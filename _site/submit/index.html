@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Submit your homebrew</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      a {
+        color: #fff;
+      }
+      a:visited {
+        color: #888;
+      }
+      td {
+        padding: 0.25em 1em;
+      }
+      html, button, input, select, textarea, .pure-g, .pure-g [class *= "pure-u"] {
+        background: #000;
+        color: #fff;
+        font-family: "PT Mono", "Courier", monospace;
+        letter-spacing: 0;
+      }
+      .frontpageLogo {
+        padding-top: 1em;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .romGrid {
+        display: flex;
+      }
+      .gridRom {
+        box-sizing: border-box;
+        padding: 0 1em;
+        margin: 0 0 1em 0;
+        background: #222;
+        display: block;
+      }
+      .gridRom h2 {
+        margin: 0.75em 0 0 0;
+      }
+      .unstyledLink, .unstyledLink:visited {
+        color: #fff;
+        text-decoration: none;
+      }
+      main { padding: 0 1em 1em 1em; }
+    </style>
+    <link rel="shortcut icon" type="image/png" href="/logo.png"/>
+  </head>
+  <body>
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+  <main>
+    <h1>Submit your homebrew</h1>
+    <form class="pure-form pure-form-aligned pure-g" action="https://formspree.io/hello@anton.fi">
+          <div class="pure-u-1 pure-control-group">
+            <div class="pure-u-1-5"><label>Title</label></div>
+            <div class="pure-u-2-5"><input name="title" class="pure-input-1" required></input></div>
+            <div class="pure-u-1-5"><span class="pure-form-message-inline">required</span></div>
+          </div>
+          <div class="pure-u-1 pure-control-group">
+            <div class="pure-u-1-5"><label>Author(s)</label></div>
+            <div class="pure-u-2-5"><textarea name="authors" class="pure-input-1" required></textarea></div>
+            <div class="pure-u-1-5"><span class="pure-form-message-inline">required</span></div>
+          </div>
+          <div class="pure-u-1 pure-control-group">
+            <div class="pure-u-1-5"><label>ROM link</label></div>
+            <div class="pure-u-2-5"><input name="romLink" class="pure-input-1" placeholder="https://..." type="url" required></input></div>
+            <div class="pure-u-1-5"><span class="pure-form-message-inline">required</span></div>
+          </div>
+          <div class="pure-u-1 pure-control-group">
+            <div class="pure-u-1-5"><label>License</label></div>
+            <div class="pure-u-2-5"><input name="license" class="pure-input-1" required></input></div>
+            <div class="pure-u-1-5"><span class="pure-form-message-inline">required</span></div>
+          </div>
+          <div class="pure-u-1 pure-control-group">
+            <div class="pure-u-1-5"><label>Source</label></div>
+            <div class="pure-u-2-5"><textarea name="licenseEvidence" class="pure-input-1" required placeholder="Link to an external, reliable source for license information / proof that you are the owner of the software" style="height:150px"></textarea></div>
+            <div class="pure-u-1-5"><span class="pure-form-message-inline">required</span></div>
+          </div>
+          <div class="pure-u-1 pure-control-group">
+            <div class="pure-u-1-5"><label>Release date (as accurate as possible)</label></div>
+            <div class="pure-u-2-5"><input name="releaseDate" class="pure-input-1"></input></div>
+          </div>
+          <div class="pure-u-1 pure-control-group">
+            <div class="pure-u-1-5"><label>Main screenshot</label></div>
+            <div class="pure-u-2-5"><input name="mainScreenshot" class="pure-input-1" placeholder="https://..." type="url" required></input></div>
+            <div class="pure-u-1-5"><span class="pure-form-message-inline">required</span></div>
+          </div>
+          <div class="pure-u-1 pure-control-group">
+            <div class="pure-u-1-5"><label>Secondary screenshot</label></div>
+            <div class="pure-u-2-5"><input name="secondaryScreenshot" class="pure-input-1" placeholder="https://..." type="url" required></input></div>
+            <div class="pure-u-1-5"><span class="pure-form-message-inline">required</span></div>
+          </div>
+          <div class="pure-u-1 pure-control-group">
+            <div class="pure-u-1-5"><label>Extra screenshots</label></div>
+            <div class="pure-u-2-5"><textarea name="extraScreenshots" class="pure-input-1" placeholder="https://..."></textarea></div>
+          </div>
+          <div class="pure-u-1 pure-control-group">
+            <div class="pure-u-1-5"><label>Promotional description</label></div>
+            <div class="pure-u-2-5"><textarea name="description" class="pure-input-1" style="height: 15em"></textarea></div>
+          </div>
+          <div class="pure-u-1 pure-control-group">
+            <div class="pure-u-1-5"><label>Promotional links</label></div>
+            <div class="pure-u-2-5"><textarea name="promotionalLinks" class="pure-input-1" style="height: 10em"></textarea></div>
+          </div>
+          <div class="pure-u-1 pure-control-group">
+            <div class="pure-u-1-5"><label>Tags</label></div>
+            <div class="pure-u-2-5"><input name="tags" class="pure-input-1" placeholder="platformer, puzzle, action..."></input></div>
+          </div>
+          <div class="pure-u-1 pure-control-group">
+            <div class="pure-u-1-5"><label>Anything else we need to know?</label></div>
+            <div class="pure-u-2-5"><textarea name="notes" class="pure-input-1" style="height: 10em"></textarea></div>
+          </div>
+          <div class="pure-u-1 pure-control-group">
+            <div class="pure-u-1-5"><label>Your email (in case we need to get back to you)</label></div>
+            <div class="pure-u-2-5"><input name="_replyto" class="pure-input-1" type="email" placeholder="myemail@example.org"></input></div>
+          </div>
+          <div class="pure-u-1">
+            <div class="pure-u-1-5"></div>
+            <div class="pure-u-3-5">
+              <label for="allowDistribution" class="pure-checkbox"><input id="allowDistribution" type="checkbox" value="" name="allowDistribution" required> I allow NES Open DB to distribute the above described software according to its license.
+              </label>
+            </div>
+          </div>
+          <div class="pure-u-1">
+            <div class="pure-u-1-5"></div>
+            <div class="pure-u-3-5">
+              <label for="owner" class="pure-checkbox"><input id="owner" type="checkbox" value="" name="owner" required> I am the sole owner or have the consent of all owners of the intellectual property of the above described software to submit it to the NES Open DB.
+              </label>
+            </div>
+          </div>
+          <p class="pure-u-1">
+            <div class="pure-u-1-5">
+              <input type="hidden" name="_next" value="https://nes-open-db.github.io/submit/thanks.html" />
+              <input type="hidden" name="_subject" value="NES Open DB: ROM submission" />
+            </div>
+            <div class="pure-u-3-5">
+              <button class="pure-button pure-button-primary">Submit</button>
+              <small>Form will be sent through formspree.io</small>
+            </div>
+          </p>
+    </form>
+  </main>
+</div>
+    </div>
+  </body>
+</html>
