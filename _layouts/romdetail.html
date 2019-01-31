@@ -23,6 +23,8 @@ layout: default
   {% endfor %}
 {% endif %}
 
+<p>Released: {{ page.released }}</p>
+
 {% if page.tags %}
 <p>Tags:{% for tag in page.tags %} {{tag}}{% endfor %}</p>
 {% endif %}
