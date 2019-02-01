@@ -27,7 +27,7 @@ layout: default
     <p>Released: {{ page.released }}</p>
 
     {% if page.tags %}
-    <p>Tags:{% for tag in page.tags %} {{tag}}{% endfor %}</p>
+    <p>Tags: {{page.tags | join:", "}}</p>
     {% endif %}
 
     <p>License: <a href="{{ page.licenseLink }}">{{ page.license }}</a></p>

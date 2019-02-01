@@ -3,15 +3,19 @@ body {
 }
 a {
   color: #f3f3f0;
+  transition: color 0.10s;
 }
 a:visited {
-  color: #888;
+  color: #c9c4c0;
+}
+a:hover {
+  color: #f8f8f3;
 }
 td {
   padding: 0.25em 1em;
 }
 html, button, input, select, textarea, .pure-g, .pure-g [class *= "pure-u"] {
-  color: #fff;
+  color: #f3f3f0;
   font-family: "PT Mono", "Courier", monospace;
   letter-spacing: 0;
 }
@@ -25,7 +29,7 @@ html, button, input, select, textarea, .pure-g, .pure-g [class *= "pure-u"] {
   display: flex;
 }
 .gridRom {
-  transition: background-color 0.15s;
+  transition: all 0.15s;
   box-sizing: border-box;
   padding: 0 1em;
   margin: 0;
@@ -33,12 +37,12 @@ html, button, input, select, textarea, .pure-g, .pure-g [class *= "pure-u"] {
 }
 .gridRom:hover {
   background: #232020;
+  color: #f8f8f3;
 }
 .gridRom h2 {
   margin: 0.75em 0 0 0;
 }
-.unstyledLink, .unstyledLink:visited {
-  color: #fff;
+.unstyledLink {
   text-decoration: none;
 }
 main { padding: 0 1em 1em 1em; }

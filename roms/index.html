@@ -27,7 +27,7 @@ title: ROMs - NES Open DB
                   {% endfor %}
                 {% endif %}
               </p>
-              <p>Tags: {% for tag in rom.tags %} {{tag}}{% endfor %}</p>
+              <p><small>Tags: {{ rom.tags | join:", " }}</small></p>
               <p><img src="{{ rom.screenshots[0] }}" style="display: block; width: 100%"></img></p>
             </article>
           </a>
