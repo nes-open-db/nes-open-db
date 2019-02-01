@@ -1,5 +1,6 @@
 body {
   background: #040301;
+  color: #f3f3f0;
 }
 a {
   color: #f3f3f0;
@@ -15,9 +16,14 @@ td {
   padding: 0.25em 1em;
 }
 html, button, input, select, textarea, .pure-g, .pure-g [class *= "pure-u"] {
-  color: #f3f3f0;
   font-family: "PT Mono", "Courier", monospace;
   letter-spacing: 0;
+}
+input, textarea {
+  color: #040301;
+}
+input::placeholder, textarea::placeholder {
+  color: #DFDFDF;
 }
 .frontpageLogo {
   padding-top: 1em;
