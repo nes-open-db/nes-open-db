@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+      body {
+        background: #000;
+      }
       a {
         color: #fff;
       }
@@ -17,7 +20,6 @@
         padding: 0.25em 1em;
       }
       html, button, input, select, textarea, .pure-g, .pure-g [class *= "pure-u"] {
-        background: #000;
         color: #fff;
         font-family: "PT Mono", "Courier", monospace;
         letter-spacing: 0;
@@ -34,9 +36,11 @@
       .gridRom {
         box-sizing: border-box;
         padding: 0 1em;
-        margin: 0 0 1em 0;
-        background: #222;
+        margin: 0;
         display: block;
+      }
+      .gridRom:hover {
+        background: #232020;
       }
       .gridRom h2 {
         margin: 0.75em 0 0 0;
