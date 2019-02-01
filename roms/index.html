@@ -3,7 +3,7 @@ layout: default
 title: ROMs - NES Open DB
 ---
 
-{% assign roms = (site.data.roms_index | sort: 'added') | reverse %}
+{% assign roms = site.data.roms_index | sort: 'added' | reverse %}
 
 <div class="pure-u-1">
     <main>
