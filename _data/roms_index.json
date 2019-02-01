@@ -70,5 +70,23 @@
     "license": "CC BY-NC-ND 3.0",
     "licenseLink": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
     "tags": ["fighting"]
+  },
+  {
+    "added": "2019-02-01",
+    "released": "2016",
+    "key": "spacey-mcracey",
+    "title": "Spacey McRacey",
+    "authors": [
+      {
+        "role": "main",
+        "key": "nathantolbert"
+      }
+    ],
+    "detailsLink": "/roms/spacey-mcracey/",
+    "romLink": "/roms/spacey-mcracey/spacey-mcracey.nes",
+    "screenshots": ["/roms/spacey-mcracey/screenshots/1.png", "/roms/spacey-mcracey/screenshots/2.png"],
+    "license": "CC BY-NC-ND 3.0",
+    "licenseLink": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
+    "tags": ["party", "racing"]
   }
 ]
