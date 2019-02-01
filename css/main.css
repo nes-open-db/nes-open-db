@@ -1,0 +1,44 @@
+body {
+  background: #040301;
+}
+a {
+  color: #f3f3f0;
+}
+a:visited {
+  color: #888;
+}
+td {
+  padding: 0.25em 1em;
+}
+html, button, input, select, textarea, .pure-g, .pure-g [class *= "pure-u"] {
+  color: #fff;
+  font-family: "PT Mono", "Courier", monospace;
+  letter-spacing: 0;
+}
+.frontpageLogo {
+  padding-top: 1em;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.romGrid {
+  display: flex;
+}
+.gridRom {
+  transition: background-color 0.15s;
+  box-sizing: border-box;
+  padding: 0 1em;
+  margin: 0;
+  display: block;
+}
+.gridRom:hover {
+  background: #232020;
+}
+.gridRom h2 {
+  margin: 0.75em 0 0 0;
+}
+.unstyledLink, .unstyledLink:visited {
+  color: #fff;
+  text-decoration: none;
+}
+main { padding: 0 1em 1em 1em; }
