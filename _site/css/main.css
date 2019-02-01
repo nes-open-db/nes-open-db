@@ -45,4 +45,7 @@ html, button, input, select, textarea, .pure-g, .pure-g [class *= "pure-u"] {
 .unstyledLink {
   text-decoration: none;
 }
+.pure-menu-link:hover {
+  background: #434040;
+}
 main { padding: 0 1em 1em 1em; }
