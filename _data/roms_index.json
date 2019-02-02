@@ -2,6 +2,8 @@
   {
     "added": "2019-01-29",
     "released": "2018-02-24",
+    "minPlayers": 1,
+    "maxPlayers": 1,
     "key": "megamountain",
     "title": "Mega Mountain: NES Edition",
     "authors": [
@@ -21,6 +23,8 @@
   {
     "added": "2019-01-29",
     "released": "2019-01-28",
+    "minPlayers": 1,
+    "maxPlayers": 1,
     "key": "melojellos2",
     "title": "Melo-Jellos 2",
     "authors": [
@@ -40,6 +44,8 @@
   {
     "added": "2019-01-30",
     "released": "2018-01-31",
+    "minPlayers": 1,
+    "maxPlayers": 1,
     "key": "robo-ninja-climb",
     "title": "Robo-Ninja Climb",
     "authors": [
@@ -58,6 +64,8 @@
   {
     "added": "2019-01-30",
     "released": "2019-01-04",
+    "minPlayers": 1,
+    "maxPlayers": 4,
     "key": "super-homebrew-war",
     "title": "Super Homebrew War",
     "authors": [
@@ -76,6 +84,8 @@
   {
     "added": "2019-02-01",
     "released": "2016",
+    "minPlayers": 1,
+    "maxPlayers": 4,
     "key": "spacey-mcracey",
     "title": "Spacey McRacey",
     "authors": [
@@ -90,5 +100,25 @@
     "license": "CC BY-NC-ND 3.0",
     "licenseLink": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
     "tags": ["party", "racing"]
+  },
+  {
+    "added": "2019-02-02",
+    "released": "2019-01-31",
+    "minPlayers": 1,
+    "maxPlayers": 4,
+    "key": "nesert-golfing",
+    "title": "NESert Golfing",
+    "authors": [
+      {
+        "role": "main",
+        "key": "bradsmith"
+      }
+    ],
+    "detailsLink": "/roms/nesert-golfing/",
+    "romLink": "/roms/nesert-golfing/nesert-golfing.nes",
+    "screenshots": ["/roms/nesert-golfing/screenshots/1.png", "/roms/nesert-golfing/screenshots/2.png", "/roms/nesert-golfing/screenshots/3.png"],
+    "license": "CC BY 4.0",
+    "licenseLink": "https://creativecommons.org/licenses/by/4.0/",
+    "tags": ["sports", "golf", "minimalistic"]
   }
 ]

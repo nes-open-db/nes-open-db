@@ -11,5 +11,12 @@
     "links": [
       {"site": "Website", "url": "http://www.bitethechili.com"}
     ]
+  },
+  "bradsmith": {
+    "name": "Brad Smith",
+    "aliases": ["rainwarrior"],
+    "links": [
+      {"site": "itch.io", "url": "https://rainwarrior.itch.io"}
+    ]
   }
 }
