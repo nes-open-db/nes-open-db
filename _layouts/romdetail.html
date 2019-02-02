@@ -33,6 +33,10 @@ layout: default
     <p>License: <a href="{{ page.licenseLink }}">{{ page.license }}</a></p>
     <p><a href="{{ page.romLink }}">Download ROM</a></p>
 
+    {% if page.sourceCodeLink %}
+    <p><a href="{{ page.sourceCodeLink }}">Download source code (.zip)</a></p>
+    {% endif %}
+
     {% if page.screenshots %}
     <h2>Screenshots</h2>
     <div>

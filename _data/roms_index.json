@@ -15,7 +15,8 @@
     "screenshots": ["/roms/megamountain/screenshots/1.gif", "/roms/megamountain/screenshots/2.gif"],
     "license": "CC-BY-SA 4.0",
     "licenseLink": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "tags": ["platformer"]
+    "tags": ["platformer"],
+    "sourceCodeLink": "/roms/megamountain/megamountain_source.zip"
   },
   {
     "added": "2019-01-29",
@@ -33,7 +34,8 @@
     "screenshots": ["/roms/melojellos2/screenshots/1.png", "/roms/melojellos2/screenshots/2.png", "/roms/melojellos2/screenshots/3.png"],
     "license": "CC-BY-SA 4.0",
     "licenseLink": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "tags": ["puzzle"]
+    "tags": ["puzzle"],
+    "sourceCodeLink": "/roms/melojellos2/melojellos2_source.zip"
   },
   {
     "added": "2019-01-30",
