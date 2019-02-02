@@ -24,13 +24,22 @@ layout: default
       {% endfor %}
     {% endif %}
 
-    <p>Released: {{ page.released }}</p>
+    <table class="pure-table">
+      <tr>
+        <th>Released</th>
+        {% assign releasedate_fields = page.released | split:"-" | size %}
+        <td>{% if releasedate_fields == 3 %}{{ page.released | date: "%b %-d, %Y" }}{%else%}{{ page.released }}{%endif%}</td>
+      </tr>
+      <tr>
+        <th>Tags</th>
+        <td>{{page.tags | join:", "}}</td>
+      </tr>
+      <tr>
+        <th>License</th>
+        <td><a href="{{ page.licenseLink }}">{{ page.license }}</a></td>
+      </tr>
+    </table>
 
-    {% if page.tags %}
-    <p>Tags: {{page.tags | join:", "}}</p>
-    {% endif %}
-
-    <p>License: <a href="{{ page.licenseLink }}">{{ page.license }}</a></p>
     <p><a href="{{ page.romLink }}">Download ROM</a></p>
 
     {% if page.sourceCodeLink %}
