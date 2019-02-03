@@ -42,7 +42,7 @@ layout: default
 
     <p><a href="{{ page.romLink }}">Download ROM</a></p>
 
-    {% if page.runsOnJSNES %}<p><a href="/play/{{page.key}}">Play now</a></p>{% endif %}
+    {% comment %}{% if page.runsOnJSNES %}<p><a href="/play/{{page.key}}">Play now</a></p>{% endif %}{% endcomment %}
 
     {% if page.sourceCodeLink %}
     <p><a href="{{ page.sourceCodeLink }}">Download source code (.zip)</a></p>
