@@ -50,6 +50,13 @@ layout: default
     <p><a href="{{ page.sourceCodeLink }}">Download source code (.zip)</a></p>
     {% endif %}
 
+    {% if page.description %}
+    <h2>Description</h2>
+
+    {{ page.description | markdownify }}
+
+    {% endif %}
+
     {% if page.screenshots %}
     <h2>Screenshots</h2>
     <div>
