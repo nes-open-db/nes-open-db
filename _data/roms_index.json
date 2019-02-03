@@ -18,7 +18,8 @@
     "license": "CC-BY-SA 4.0",
     "licenseLink": "https://creativecommons.org/licenses/by-sa/4.0/",
     "tags": ["platformer"],
-    "sourceCodeLink": "/roms/megamountain/megamountain_source.zip"
+    "sourceCodeLink": "/roms/megamountain/megamountain_source.zip",
+    "runsOnJSNES": false
   },
   {
     "added": "2019-01-29",
@@ -39,7 +40,8 @@
     "license": "CC-BY-SA 4.0",
     "licenseLink": "https://creativecommons.org/licenses/by-sa/4.0/",
     "tags": ["puzzle"],
-    "sourceCodeLink": "/roms/melojellos2/melojellos2_source.zip"
+    "sourceCodeLink": "/roms/melojellos2/melojellos2_source.zip",
+    "runsOnJSNES": true
   },
   {
     "added": "2019-01-30",
@@ -59,7 +61,8 @@
     "screenshots": ["/roms/robo-ninja-climb/screenshots/1.png","/roms/robo-ninja-climb/screenshots/2.png"],
     "license": "CC BY-NC-ND 3.0",
     "licenseLink": "https://creativecommons.org/licenses/by-nc-nd/3.0/",
-    "tags": ["action"]
+    "tags": ["action"],
+    "runsOnJSNES": true
   },
   {
     "added": "2019-01-30",
@@ -119,6 +122,7 @@
     "screenshots": ["/roms/nesert-golfing/screenshots/1.png", "/roms/nesert-golfing/screenshots/2.png", "/roms/nesert-golfing/screenshots/3.png"],
     "license": "CC BY 4.0",
     "licenseLink": "https://creativecommons.org/licenses/by/4.0/",
-    "tags": ["sports", "golf", "minimalistic"]
+    "tags": ["sports", "golf", "minimalistic"],
+    "runsOnJSNES": true
   }
 ]

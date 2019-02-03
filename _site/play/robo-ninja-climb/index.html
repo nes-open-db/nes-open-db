@@ -21,11 +21,15 @@
       </ul>
     </nav>
     <div class="pure-g">
-      <canvas id="canvas" style="display: block; width: 100%; height: 100%"></canvas>
+      <canvas id="nes_canvas" width="256" height="240"></canvas>
 
-<script type="text/javascript" src="/pinky-web.js"></script>
+
+<script src="https://unpkg.com/jsnes/dist/jsnes.min.js"></script>
+<script type="text/javascript" src="/js/nes-embed.js"></script>
 <script>
-
+  window.onload = function(){
+    EmbedJSNES().nes_load_url("nes_canvas", "/roms/robo-ninja-climb/robo-ninja-climb.nes");
+  }
 </script>
     </div>
   </body>
