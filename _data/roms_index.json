@@ -126,5 +126,33 @@
     "licenseLink": "https://creativecommons.org/licenses/by/4.0/",
     "tags": ["sports", "golf", "minimalistic"],
     "runsOnJSNES": true
+  },
+  {
+    "added": "2019-02-03",
+    "released": "2018-09-01",
+    "minPlayers": 1,
+    "maxPlayers": 1,
+    "key": "kubo",
+    "title": "KUBO",
+    "authors": [
+        {
+            "role": "main",
+            "key": "seiji"
+        },
+        {
+            "role": "main",
+            "key": "dalecoop"
+        }
+    ],
+    "detailsLink": "/roms/kubo/",
+    "romLink": "/roms/kubo/kubo.nes",
+    "screenshots": [
+        "/roms/kubo/screenshots/1.png",
+        "/roms/kubo/screenshots/2.png",
+        "/roms/kubo/screenshots/3.png"
+    ],
+    "license": "CC BY 4.0",
+    "licenseLink": "https://creativecommons.org/licenses/by/4.0/",
+    "tags": ["adventure", "NESMaker"]
   }
 ]

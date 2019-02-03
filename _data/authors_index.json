@@ -18,5 +18,7 @@
     "links": [
       {"site": "itch.io", "url": "https://rainwarrior.itch.io"}
     ]
-  }
+  },
+  "seiji": { "name": "Seiji" },
+  "dalecoop": { "name": "dale_coop" }
 }

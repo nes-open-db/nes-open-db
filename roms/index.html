@@ -20,9 +20,9 @@ title: ROMs
                   {{ soleauthor_profile.name }}
                 {% else %}
                   {% for author in rom.authors %}
-                    {% assign author_profile = site.data.authors_index[author.key] %}
+                    {%- assign author_profile = site.data.authors_index[author.key] %}
                     {%- unless forloop.first %}, {% endunless %}{{ author_profile.name }}
-                  {% endfor %}
+                  {%- endfor %}
                 {% endif %}
               </p>
               <p><small>Tags: {{ rom.tags | join:", " }}</small></p>

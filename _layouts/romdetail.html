@@ -18,10 +18,12 @@ layout: default
         {% endif %}
       </p>
     {% else %}
-      by
-      {% for author in authors %}
-        {%- unless forloop.first %}, {% endunless %}{{ author.name }}
-      {% endfor %}
+      <p>by
+      {% for author in page.authors %}
+        {%- assign author_profile = site.data.authors_index[author.key] %}
+        {%- unless forloop.first %}, {% endunless %}{{ author_profile.name }}
+      {%- endfor %}
+      </p>
     {% endif %}
 
     <table class="pure-table">
