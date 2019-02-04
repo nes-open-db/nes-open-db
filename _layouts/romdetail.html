@@ -32,6 +32,10 @@ layout: default
         {% assign releasedate_fields = page.released | split:"-" | size %}
         <td>{% if releasedate_fields == 3 %}{{ page.released | date: "%b %-d, %Y" }}{%else%}{{ page.released }}{%endif%}</td>
       </tr>
+      <th>Players</th>
+      <td>
+        {% if page.minPlayers == page.maxPlayers %}{{page.minPlayers}}{% else %}{{page.minPlayers}}-{{page.maxPlayers}}{% endif %}
+      </td>
       <tr>
         <th>Tags</th>
         <td>{{page.tags | join:", "}}</td>
