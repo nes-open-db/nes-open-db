@@ -19,7 +19,7 @@
     "licenseLink": "https://creativecommons.org/licenses/by-sa/4.0/",
     "tags": ["platformer"],
     "sourceCodeLink": "/roms/megamountain/megamountain_source.zip",
-    "runsOnJSNES": false
+    "runsOnJSNES": true
   },
   {
     "added": "2019-01-29",
