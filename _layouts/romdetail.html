@@ -42,7 +42,10 @@ layout: default
       </tr>
     </table>
 
-    <p><a href="{{ page.romLink }}">Download ROM</a></p>
+    <p>
+      <a href="{{ page.romLink }}">Download ROM</a>
+      {% if site.data.roms_sha1sums[page.key] %}<small>(sha-1: {{site.data.roms_sha1sums[page.key]}})</small>{% endif %}
+    </p>
 
     {% comment %}{% if page.runsOnJSNES %}<p><a href="/play/{{page.key}}">Play now</a></p>{% endif %}{% endcomment %}
 
