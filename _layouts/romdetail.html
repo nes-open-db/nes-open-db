@@ -1,14 +1,16 @@
 ---
 layout: default
 ---
+
+{% assign rom = page %}
 <div class="pure-u-1">
   <main>
     <p><a href="/roms">&lt; Back to ROMs</a></p>
 
-    <h1>{{ page.title }}</h1>
+    <h1>{{ rom.title }}</h1>
 
-    {% if page.authors.size == 1 %}
-      {% assign soleauthor = page.authors[0] %}
+    {% if rom.authors.size == 1 %}
+      {% assign soleauthor = rom.authors[0] %}
       {% assign soleauthor_profile = site.data.authors_index[soleauthor.key] %}
 
       <p>
@@ -19,7 +21,7 @@ layout: default
       </p>
     {% else %}
       <p>by
-      {% for author in page.authors %}
+      {% for author in rom.authors %}
         {%- assign author_profile = site.data.authors_index[author.key] %}
         {%- unless forloop.first %}, {% endunless %}{{ author_profile.name }}
       {%- endfor %}
@@ -29,45 +31,45 @@ layout: default
     <table class="pure-table">
       <tr>
         <th>Released</th>
-        {% assign releasedate_fields = page.released | split:"-" | size %}
-        <td>{% if releasedate_fields == 3 %}{{ page.released | date: "%b %-d, %Y" }}{%else%}{{ page.released }}{%endif%}</td>
+        {% assign releasedate_fields = rom.released | split:"-" | size %}
+        <td>{% if releasedate_fields == 3 %}{{ rom.released | date: "%b %-d, %Y" }}{% else %}{{ rom.released }}{% endif% }</td>
       </tr>
       <th>Players</th>
       <td>
-        {% if page.minPlayers == page.maxPlayers %}{{page.minPlayers}}{% else %}{{page.minPlayers}}-{{page.maxPlayers}}{% endif %}
+        {% if rom.minPlayers == rom.maxPlayers %}{{rom.minPlayers}}{% else %}{{rom.minPlayers}}-{{rom.maxPlayers}}{% endif %}
       </td>
       <tr>
         <th>Tags</th>
-        <td>{{page.tags | join:", "}}</td>
+        <td>{{rom.tags | join:", "}}</td>
       </tr>
       <tr>
         <th>License</th>
-        <td><a href="{{ page.licenseLink }}">{{ page.license }}</a></td>
+        <td><a href="{{ rom.licenseLink }}">{{ rom.license }}</a></td>
       </tr>
     </table>
 
     <p>
-      <a href="{{ page.romLink }}" class="pure-button pure-button-secondary">Download ROM</a>
-      {% if site.data.roms_sha1sums[page.key] %}<small>(sha-1: {{site.data.roms_sha1sums[page.key]}})</small>{% endif %}
+      <a href="{{ rom.romLink }}" class="pure-button pure-button-secondary">Download ROM</a>
+      {% if site.data.roms_sha1sums[rom.key] %}<small>(sha-1: {{site.data.roms_sha1sums[rom.key]}})</small>{% endif %}
     </p>
 
-    {% if page.sourceCodeLink %}
-    <p><a href="{{ page.sourceCodeLink }}" class="pure-button pure-button-secondary">Download source code</a> <small>(.zip)</small></p>
+    {% if rom.sourceCodeLink %}
+    <p><a href="{{ rom.sourceCodeLink }}" class="pure-button pure-button-secondary">Download source code</a> <small>(.zip)</small></p>
     {% endif %}
 
-    {% if page.runsOnJSNES %}<p><a href="/play/{{page.key}}" class="pure-button pure-button-primary">Play now</a></p>{% endif %}
+    {% if rom.runsOnJSNES %}<p><a href="/play/{{rom.key}}" class="pure-button pure-button-primary">Play now</a></p>{% endif %}
 
-    {% if page.description %}
+    {% if rom.description %}
     <h2>Description</h2>
 
-    {{ page.description | escape | markdownify }}
+    {{ rom.description | escape | markdownify }}
 
     {% endif %}
 
-    {% if page.screenshots %}
+    {% if rom.screenshots %}
     <h2>Screenshots</h2>
     <div>
-      {% for ss in page.screenshots %}
+      {% for ss in rom.screenshots %}
         <a href="{{ss}}"><img src="{{ss}}" width="400" /></a>
       {% endfor %}
     </div>
