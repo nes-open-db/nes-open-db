@@ -5,3 +5,7 @@ page_gen:
     name: key
     template: romdetail
     dir: roms
+  - data: roms_index
+    name: key
+    template: playrom
+    dir: play
