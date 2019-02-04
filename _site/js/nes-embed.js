@@ -76,9 +76,9 @@ var JSNES = jsnes || require('jsnes')
           callback(player, jsnes.Controller.BUTTON_LEFT); break;
         case 68: // S
           callback(player, jsnes.Controller.BUTTON_RIGHT); break;
-        case 75: // L
+        case 76: // L
           callback(player, jsnes.Controller.BUTTON_A); break;
-        case 83: //K
+        case 75: //K
           callback(player, jsnes.Controller.BUTTON_B); break;
         case 16: // shift
           callback(player, jsnes.Controller.BUTTON_SELECT); break;
