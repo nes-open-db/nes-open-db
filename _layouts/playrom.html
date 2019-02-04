@@ -2,10 +2,41 @@
 layout: default
 ---
 
+<div class="pure-u-1">
 
+<main>
 
+<h1>{{page.title}}</h1>
+
+{% if page.authors.size == 1 %}
+  {% assign soleauthor = page.authors[0] %}
+  {% assign soleauthor_profile = site.data.authors_index[soleauthor.key] %}
+
+  <p>
+    by {{ soleauthor_profile.name }}
+    {% if soleauthor_profile.links %}
+    |{% for link in soleauthor_profile.links %} <a href="{{ link.url }}">{{ link.site }}</a>{% endfor %}
+    {% endif %}
+  </p>
+{% else %}
+  <p>by
+  {% for author in page.authors %}
+    {%- assign author_profile = site.data.authors_index[author.key] %}
+    {%- unless forloop.first %}, {% endunless %}{{ author_profile.name }}
+  {%- endfor %}
+  </p>
+{% endif %}
 
 <canvas id="nes_canvas" width="256" height="240" style="width: 512px; height: 480px"></canvas>
+
+<p>WASD = up/left/down/right</p>
+<p>K/L = B/A</p>
+<p>Return = Start; Shift = Select</p>
+
+<p>If you cannot hear the sounds, you probably have to enable Sound permissions in your browser.</p>
+
+</div>
+</main>
 
 
 <style>

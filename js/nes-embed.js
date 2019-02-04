@@ -68,21 +68,19 @@ var JSNES = jsnes || require('jsnes')
     interface.keyboard = function keyboard(callback, event){
       var player = 1;
       switch(event.keyCode){
-        case 38: // UP
+        case 87: // W
           callback(player, jsnes.Controller.BUTTON_UP); break;
-        case 40: // Down
+        case 83: // D
           callback(player, jsnes.Controller.BUTTON_DOWN); break;
-        case 37: // Left
+        case 65: // A
           callback(player, jsnes.Controller.BUTTON_LEFT); break;
-        case 39: // Right
+        case 68: // S
           callback(player, jsnes.Controller.BUTTON_RIGHT); break;
-        case 65: // 'a' - qwerty, dvorak
-        case 81: // 'q' - azerty
+        case 75: // L
           callback(player, jsnes.Controller.BUTTON_A); break;
-        case 83: // 's' - qwerty, azerty
-        case 79: // 'o' - dvorak
+        case 83: //K
           callback(player, jsnes.Controller.BUTTON_B); break;
-        case 9: // Tab
+        case 16: // shift
           callback(player, jsnes.Controller.BUTTON_SELECT); break;
         case 13: // Return
           callback(player, jsnes.Controller.BUTTON_START); break;
