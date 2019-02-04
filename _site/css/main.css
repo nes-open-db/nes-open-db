@@ -55,3 +55,11 @@ input::placeholder, textarea::placeholder {
   background: #434040;
 }
 main { padding: 0 1em 1em 1em; }
+
+.pure-button, .pure-button:visited, .pure-button:hover {
+  color: #000;
+}
+
+.pure-button-primary, .pure-button-primary:visited {
+  color: #fff;
+}

@@ -43,15 +43,15 @@ layout: default
     </table>
 
     <p>
-      <a href="{{ page.romLink }}">Download ROM</a>
+      <a href="{{ page.romLink }}" class="pure-button pure-button-secondary">Download ROM</a>
       {% if site.data.roms_sha1sums[page.key] %}<small>(sha-1: {{site.data.roms_sha1sums[page.key]}})</small>{% endif %}
     </p>
 
-    {% if page.runsOnJSNES %}<p><a href="/play/{{page.key}}">Play now</a></p>{% endif %}
-
     {% if page.sourceCodeLink %}
-    <p><a href="{{ page.sourceCodeLink }}">Download source code (.zip)</a></p>
+    <p><a href="{{ page.sourceCodeLink }}" class="pure-button pure-button-secondary">Download source code</a> <small>(.zip)</small></p>
     {% endif %}
+
+    {% if page.runsOnJSNES %}<p><a href="/play/{{page.key}}" class="pure-button pure-button-primary">Play now</a></p>{% endif %}
 
     {% if page.description %}
     <h2>Description</h2>
