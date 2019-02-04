@@ -70,11 +70,11 @@ var JSNES = jsnes || require('jsnes')
       switch(event.keyCode){
         case 87: // W
           callback(player, jsnes.Controller.BUTTON_UP); break;
-        case 83: // D
+        case 68: // D
           callback(player, jsnes.Controller.BUTTON_DOWN); break;
         case 65: // A
           callback(player, jsnes.Controller.BUTTON_LEFT); break;
-        case 68: // S
+        case 83: // S
           callback(player, jsnes.Controller.BUTTON_RIGHT); break;
         case 76: // L
           callback(player, jsnes.Controller.BUTTON_A); break;
