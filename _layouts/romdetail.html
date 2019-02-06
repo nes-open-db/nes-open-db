@@ -32,7 +32,7 @@ layout: default
       <tr>
         <th>Released</th>
         {% assign releasedate_fields = rom.released | split:"-" | size %}
-        <td>{% if releasedate_fields == 3 %}{{ rom.released | date: "%b %-d, %Y" }}{% else %}{{ rom.released }}{% endif% }</td>
+        <td>{% if releasedate_fields == 3 %}{{ rom.released | date: "%b %-d, %Y" }}{% else %}{{ rom.released }}{% endif %}</td>
       </tr>
       <th>Players</th>
       <td>
