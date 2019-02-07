@@ -9,3 +9,7 @@ page_gen:
     name: key
     template: playrom
     dir: play
+  - data: tags
+    name: tag
+    template: roms-by-tag
+    dir: roms/by-tag
