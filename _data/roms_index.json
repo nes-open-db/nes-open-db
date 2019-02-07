@@ -1327,7 +1327,9 @@
     "romLink": "/roms/owlia/owlia.nes",
     "authorString": "Gradual Games",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["adventure", "action"]
   },
   {
     "added": "2019-02-07",
@@ -1343,7 +1345,9 @@
     "romLink": "/roms/themadwizard/themadwizard.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "tags": ["adventure", "metroidvania"],
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -1359,7 +1363,9 @@
     "romLink": "/roms/theonewiththewalls/theonewiththewalls.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 2,
-    "maxPlayers": 2
+    "maxPlayers": 2,
+    "runsOnJSNES": true,
+    "tags": ["tron", "clone"]
   },
   {
     "added": "2019-02-07",
@@ -1375,7 +1381,9 @@
     "romLink": "/roms/thewit/thewit.nes",
     "authorString": "dustmop",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["puzzle", "demake"]
   },
   {
     "added": "2019-02-07",
@@ -1391,7 +1399,9 @@
     "romLink": "/roms/thwaite/thwaite.nes",
     "authorString": "Damian Yerrick",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["shoot 'em up", "missile command", "clone"]
   },
   {
     "added": "2019-02-07",
@@ -1407,7 +1417,8 @@
     "romLink": "/roms/tictactwop/tictactwop.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 2,
-    "maxPlayers": 2
+    "maxPlayers": 2,
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -1423,7 +1434,8 @@
     "romLink": "/roms/tictacxo/tictacxo.nes",
     "authorString": "Robert L Bryant",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -1439,7 +1451,9 @@
     "romLink": "/roms/tigerjenny/tigerjenny.nes",
     "authorString": "Ludosity",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["platformer"]
   },
   {
     "added": "2019-02-07",
@@ -1455,7 +1469,9 @@
     "romLink": "/roms/twindragons/twindragons.nes",
     "authorString": "Antoine Gohin",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["platformer"]
   },
   {
     "added": "2019-02-07",
@@ -1471,7 +1487,9 @@
     "romLink": "/roms/vigilanteninja/vigilanteninja.nes",
     "authorString": "Dougeff",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "tags": ["action", "platformer"],
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -1487,7 +1505,9 @@
     "romLink": "/roms/viruscleaner/viruscleaner.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["action"]
   },
   {
     "added": "2019-02-07",
@@ -1504,7 +1524,9 @@
     "authorString": "Mojon Twins",
     "minPlayers": 1,
     "maxPlayers": 1,
-    "license": "LGPLv3"
+    "license": "LGPLv3",
+    "tags": ["platformer"],
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -1521,6 +1543,8 @@
     "authorString": "Mojon Twins",
     "minPlayers": 1,
     "maxPlayers": 1,
-    "license": "LGPLv3"
+    "license": "LGPLv3",
+    "tags": ["platformer"],
+    "runsOnJSNES": true
   }
 ]
