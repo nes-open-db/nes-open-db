@@ -6,12 +6,11 @@ require 'fileutils'
 import_path = "./nes-games-master"
 platform = "nes"
 rom_extension = "nes"
+export_path = "./test"
 ### END CONFIG
 
 
 cd = File.dirname(__FILE__)
-
-export_path = File.join(cd, "test")
 roms_path = File.join(export_path, "roms")
 data_path = File.join(export_path, "_data")
 roms_index = File.join(data_path, "roms_index.json")
@@ -65,7 +64,11 @@ converted_games = games.map { |game|
   }
 }
 
+existing_roms = JSON.parse(File.read(roms_index))
+
+all_roms = existing_roms + converted_games
+
 File.open(roms_index,"w") do |f|
   puts "Writing to #{roms_index}"
-  f.write(converted_games.to_json)
+  f.write(all_roms.to_json)
 end
