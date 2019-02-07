@@ -210,6 +210,8 @@
     "authorString": "Mojon Twins",
     "minPlayers": 1,
     "maxPlayers": 1,
+    "license": "GPLv3",
+    "licenseLink": "https://www.gnu.org/licenses/gpl-3.0.en.html",
     "tags": [
       "multicart"
     ],
@@ -249,7 +251,11 @@
     "romLink": "/roms/ambushed/ambushed.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": [
+      "first person shooter"
+    ]
   },
   {
     "added": "2019-02-07",
