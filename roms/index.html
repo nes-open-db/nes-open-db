@@ -14,16 +14,19 @@ title: ROMs
               <h2>{{ rom.title }}</h2>
               <p>
                 by
-                {% if rom.authors.size == 1 %}
-                  {% assign soleauthor = rom.authors[0] %}
-                  {% assign soleauthor_profile = site.data.authors_index[soleauthor.key] %}
-                  {{ soleauthor_profile.name }}
-                {% else %}
-                  {% for author in rom.authors %}
-                    {%- assign author_profile = site.data.authors_index[author.key] %}
-                    {%- unless forloop.first %}, {% endunless %}{{ author_profile.name }}
-                  {%- endfor %}
+                {% if rom.authors %}
+                  {% if rom.authors.size == 1 %}
+                    {% assign soleauthor = rom.authors[0] %}
+                    {% assign soleauthor_profile = site.data.authors_index[soleauthor.key] %}
+                    {{ soleauthor_profile.name }}
+                  {% else %}
+                    {% for author in rom.authors %}
+                      {%- assign author_profile = site.data.authors_index[author.key] %}
+                      {%- unless forloop.first %}, {% endunless %}{{ author_profile.name }}
+                    {%- endfor %}
+                  {% endif %}
                 {% endif %}
+                {% if rom.authorString %}{{rom.authorString}}{% endif %}
               </p>
               <p><small>Tags: {{ rom.tags | join:", " }}</small></p>
               <p><img src="{{ rom.screenshots[0] }}" style="display: block; width: 100%"></img></p>

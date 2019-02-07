@@ -9,23 +9,28 @@ layout: default
 
     <h1>{{ rom.title }}</h1>
 
-    {% if rom.authors.size == 1 %}
-      {% assign soleauthor = rom.authors[0] %}
-      {% assign soleauthor_profile = site.data.authors_index[soleauthor.key] %}
+    {% if rom.authors %}
+      {% if rom.authors.size == 1 %}
+        {% assign soleauthor = rom.authors[0] %}
+        {% assign soleauthor_profile = site.data.authors_index[soleauthor.key] %}
 
-      <p>
-        by {{ soleauthor_profile.name }}
-        {% if soleauthor_profile.links %}
-        |{% for link in soleauthor_profile.links %} <a href="{{ link.url }}">{{ link.site }}</a>{% endfor %}
-        {% endif %}
-      </p>
-    {% else %}
-      <p>by
-      {% for author in rom.authors %}
-        {%- assign author_profile = site.data.authors_index[author.key] %}
-        {%- unless forloop.first %}, {% endunless %}{{ author_profile.name }}
-      {%- endfor %}
-      </p>
+        <p>
+          by {{ soleauthor_profile.name }}
+          {% if soleauthor_profile.links %}
+          |{% for link in soleauthor_profile.links %} <a href="{{ link.url }}">{{ link.site }}</a>{% endfor %}
+          {% endif %}
+        </p>
+      {% else %}
+        <p>by
+        {% for author in rom.authors %}
+          {%- assign author_profile = site.data.authors_index[author.key] %}
+          {%- unless forloop.first %}, {% endunless %}{{ author_profile.name }}
+        {%- endfor %}
+        </p>
+      {% endif %}
+    {% endif %}
+    {% if rom.authorString %}
+      <p>by {{rom.authorString}}</p>
     {% endif %}
 
     <table class="pure-table">
