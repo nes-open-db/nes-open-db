@@ -6,7 +6,6 @@ title: ROMs
 {% assign roms = site.data.roms_index | sort: 'added' | reverse %}
 
 <div class="pure-u-1">
-    <p>{{roms | size}} ROMs in database.</p>
     <main>
       <div class="pure-g" class="romGrid">
         {% for rom in roms %}
