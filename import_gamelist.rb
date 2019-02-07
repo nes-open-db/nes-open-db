@@ -16,6 +16,7 @@ gamelist_path = File.join(import_path, "gamelist.xml")
 
 #puts "Platform?"
 platform = "nes" #gets.chomp
+rom_extension = "nes"
 
 doc = Hash.from_xml(File.read(gamelist_path))
 
@@ -25,13 +26,22 @@ games = doc["gameList"]["game"]
 converted_games = games.map { |game|
   rom_path = File.join(import_path, game["path"])
   key = File.basename(rom_path, File.extname(game["path"]))
+  base_dir = File.join(roms_path, key)
+  screenshots_dir = File.join(base_dir, "screenshots")
+  [base_dir, screenshots_dir].each { |p| FileUtils.mkdir_p p }
 
   #copy files
-  dest_dir = File.join(roms_path, key)
-  FileUtils.mkdir_p dest_dir
   files_to_copy = Dir[File.join(import_path, "#{key}.*")]
+  screenshots = []
   files_to_copy.each do |filename|
-    FileUtils.cp(filename, File.join(dest_dir, File.basename(filename)))
+    is_screenshot = File.extname(filename) == ".png"
+    file_basename = File.basename(filename)
+    screenshots.push("/roms/#{key}/screenshots/#{file_basename}") if is_screenshot
+
+    dest_dir = if is_screenshot then screenshots_dir else base_dir end
+    dest_path = File.join(dest_dir, file_basename)
+
+    FileUtils.cp(filename, dest_path)
   end
 
   #return json for index
@@ -39,7 +49,9 @@ converted_games = games.map { |game|
     "key" => key,
     "platform" => platform,
     "title" => game["name"],
-    "description" => game["desc"]
+    "description" => game["desc"],
+    "screenshots" => screenshots,
+    "romLink" => "/roms/#{key}/#{key}.#{rom_extension}"
   }
 }
 
