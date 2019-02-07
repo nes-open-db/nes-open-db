@@ -51,7 +51,17 @@ layout: default
       {% endif %}
       <tr>
         <th>License</th>
-        <td>{% if rom.license %}<a href="{{ rom.licenseLink }}">{{ rom.license }}</a>{% else %}Unknown{% endif %}</td>
+        <td>
+          {% if rom.license %}
+            {% if rom.licenseLink %}
+              <a href="{{ rom.licenseLink }}">{{ rom.license }}</a>
+            {% else %}
+              {{ rom.license }}
+            {% endif %}
+          {% else %}
+            Unknown
+          {% endif %}
+        </td>
       </tr>
     </table>
 
