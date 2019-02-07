@@ -1,27 +1,12 @@
 <div class="unstyledLink gridRom pure-u-sm-1-1 pure-u-md-1-2 pure-u-lg-1-3">
   <article>
     <h2><a href="{{ rom.detailsLink }}">{{ rom.title }}</a></h2>
-    <p>
-      by
-      {% if rom.authors %}
-        {% if rom.authors.size == 1 %}
-          {% assign soleauthor = rom.authors[0] %}
-          {% assign soleauthor_profile = site.data.authors_index[soleauthor.key] %}
-          {{ soleauthor_profile.name }}
-        {% else %}
-          {% for author in rom.authors %}
-            {%- assign author_profile = site.data.authors_index[author.key] %}
-            {%- unless forloop.first %}, {% endunless %}{{ author_profile.name }}
-          {%- endfor %}
-        {% endif %}
-      {% endif %}
-      {% if rom.authorString %}{{rom.authorString}}{% endif %}
-    </p>
+
+    {% include authors.html %}
+
     <p>
       {% if rom.tags %}
-        <small>Tags:
-          {% for tag in rom.tags %} <a href="/roms/by-tag/{{tag | slugify}}">{{tag}}</a>{% endfor %}
-        </small>
+        <small>Tags: {% include taglist.html %}</small>
       {% endif %}
     </p>
     <p><a href="{{ rom.detailsLink }}"><img src="{{ rom.screenshots[0] }}" style="display: block; width: 100%"></img></a></p>

@@ -13,7 +13,7 @@ title: ROMs tagged {{ page.tag }}
     <div class="pure-g" class="romGrid">
       {% for rom in roms %}
         {% if rom.tags contains tag %}
-          {% include rom-in-list.html rom=rom %}
+          {% include rom-in-list.html %}
         {% endif %}
       {% endfor %}
     </div>
