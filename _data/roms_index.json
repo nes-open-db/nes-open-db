@@ -209,7 +209,11 @@
     "romLink": "/roms/31in1realgame-multicart/31in1realgame-multicart.nes",
     "authorString": "Mojon Twins",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "tags": [
+      "multicart"
+    ],
+    "runsOnJSNES": false
   },
   {
     "added": "2019-02-07",
@@ -225,7 +229,8 @@
     "romLink": "/roms/3in12ppak/3in12ppak.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 2,
-    "maxPlayers": 2
+    "maxPlayers": 2,
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
