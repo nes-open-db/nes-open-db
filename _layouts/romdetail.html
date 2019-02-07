@@ -43,13 +43,15 @@ layout: default
       <td>
         {% if rom.minPlayers == rom.maxPlayers %}{{rom.minPlayers}}{% else %}{{rom.minPlayers}}-{{rom.maxPlayers}}{% endif %}
       </td>
+      {% if rom.tags %}
       <tr>
         <th>Tags</th>
         <td>{{rom.tags | join:", "}}</td>
       </tr>
+      {% endif %}
       <tr>
         <th>License</th>
-        <td><a href="{{ rom.licenseLink }}">{{ rom.license }}</a></td>
+        <td>{% if rom.license %}<a href="{{ rom.licenseLink }}">{{ rom.license }}</a>{% else %}Unknown{% endif %}</td>
       </tr>
     </table>
 
