@@ -64,9 +64,17 @@ converted_games = games.map { |game|
   }
 }
 
-existing_roms = JSON.parse(File.read(roms_index))
+existing_roms = if File.exists?(roms_index) then JSON.parse(File.read(roms_index)) else [] end
 
-all_roms = existing_roms + converted_games
+existing_keys = existing_roms.map { |rom| rom["key"] }
+
+converted_games.take_while { |rom| existing_keys.include?(rom["key"]) }.each do |rom|
+  title = rom["title"]
+  key = rom["key"]
+  puts "\"#{title}\" not added: key \"#{key}\" already exists"
+end
+
+all_roms = existing_roms + converted_games.drop_while { |rom| existing_keys.include?(rom["key"]) }
 
 File.open(roms_index,"w") do |f|
   puts "Writing to #{roms_index}"
