@@ -355,7 +355,9 @@
     "romLink": "/roms/bootee/bootee.nes",
     "authorString": "Mojon Twins",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "CC BY-NC-SA 3.0",
+    "licenseLink": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
   },
   {
     "added": "2019-02-07",
@@ -387,7 +389,9 @@
     "romLink": "/roms/cheril-the-goddess/cheril-the-goddess.nes",
     "authorString": "Mojon Twins",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "CC BY-NC-SA 3.0",
+    "licenseLink": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
   },
   {
     "added": "2019-02-07",
@@ -419,7 +423,8 @@
     "romLink": "/roms/croom/croom.nes",
     "authorString": "Damian Yerrick",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "GPLv3"
   },
   {
     "added": "2019-02-07",
@@ -451,7 +456,8 @@
     "romLink": "/roms/dabg/dabg.nes",
     "authorString": "NovaSquirrel",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "GPLv3"
   },
   {
     "added": "2019-02-07",
@@ -467,7 +473,9 @@
     "romLink": "/roms/driar/driar.nes",
     "authorString": "Adolfsson, Eriksson",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "CC BY-NC 3.0",
+    "licenseLink": "https://creativecommons.org/licenses/by-nc/3.0/"
   },
   {
     "added": "2019-02-07",
@@ -483,7 +491,8 @@
     "romLink": "/roms/falling/falling.nes",
     "authorString": "Tragicmuffin",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "MIT"
   },
   {
     "added": "2019-02-07",
@@ -499,7 +508,8 @@
     "romLink": "/roms/fff/fff.nes",
     "authorString": "Pubby",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "MIT"
   },
   {
     "added": "2019-02-07",
@@ -643,7 +653,8 @@
     "romLink": "/roms/jetpaco/jetpaco.nes",
     "authorString": "Mojon Twins",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "GPLv3"
   },
   {
     "added": "2019-02-07",
@@ -675,7 +686,8 @@
     "romLink": "/roms/lala/lala.nes",
     "authorString": "Mojon Twins",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "LGPLv3"
   },
   {
     "added": "2019-02-07",
@@ -707,7 +719,8 @@
     "romLink": "/roms/lunarlimit/lunarlimit.nes",
     "authorString": "Pubby",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "MIT"
   },
   {
     "added": "2019-02-07",
@@ -835,7 +848,9 @@
     "romLink": "/roms/miedow/miedow.nes",
     "authorString": "Mojon Twins",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "CC BY-NC-SA 3.0",
+    "licenseLink": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
   },
   {
     "added": "2019-02-07",
@@ -883,7 +898,9 @@
     "romLink": "/roms/nesertbus/nesertbus.nes",
     "authorString": "Redslash12",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "CC BY-SA 4.0",
+    "licenseLink": "http://creativecommons.org/licenses/by-sa/4.0/"
   },
   {
     "added": "2019-02-07",
@@ -963,7 +980,8 @@
     "romLink": "/roms/novathesquirrel/novathesquirrel.nes",
     "authorString": "NovaSquirrel",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "GPLv3"
   },
   {
     "added": "2019-02-07",
@@ -1043,7 +1061,8 @@
     "romLink": "/roms/ralph4/ralph4.nes",
     "authorString": "Pubby",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "MIT"
   },
   {
     "added": "2019-02-07",
@@ -1091,7 +1110,9 @@
     "romLink": "/roms/robotfindskitten/robotfindskitten.nes",
     "authorString": "Damian Yerrick",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "zLib",
+    "licenseLink": "/roms/robotfindskitten/robotfindskitten.txt"
   },
   {
     "added": "2019-02-07",
@@ -1139,7 +1160,8 @@
     "romLink": "/roms/sgthelmet/sgthelmet.nes",
     "authorString": "Mojon Twins",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "GPLv3"
   },
   {
     "added": "2019-02-07",
@@ -1171,7 +1193,8 @@
     "romLink": "/roms/sir-ababol-remastered/sir-ababol-remastered.nes",
     "authorString": "Mojon Twins",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "GPLv3"
   },
   {
     "added": "2019-02-07",
@@ -1203,7 +1226,8 @@
     "romLink": "/roms/starevil/starevil.nes",
     "authorString": "Pubby",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "MIT"
   },
   {
     "added": "2019-02-07",
@@ -1235,7 +1259,9 @@
     "romLink": "/roms/super-tilt-bro/super-tilt-bro.nes",
     "authorString": "Sylvain Gadrat (sgadrat)",
     "minPlayers": 1,
-    "maxPlayers": 2
+    "maxPlayers": 2,
+    "license": "WTFPL",
+    "licenseLink": "http://www.wtfpl.net/txt/copying/"
   },
   {
     "added": "2019-02-07",
@@ -1251,7 +1277,9 @@
     "romLink": "/roms/superuwol/superuwol.nes",
     "authorString": "Mojon Twins",
     "minPlayers": 1,
-    "maxPlayers": 2
+    "maxPlayers": 2,
+    "license": "CC BY-NC-SA 3.0",
+    "licenseLink": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
   },
   {
     "added": "2019-02-07",
@@ -1475,7 +1503,8 @@
     "romLink": "/roms/wo-xiang-niao-niao/wo-xiang-niao-niao.nes",
     "authorString": "Mojon Twins",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "LGPLv3"
   },
   {
     "added": "2019-02-07",
@@ -1491,6 +1520,7 @@
     "romLink": "/roms/yun/yun.nes",
     "authorString": "Mojon Twins",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "license": "LGPLv3"
   }
 ]
