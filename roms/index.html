@@ -29,7 +29,7 @@ title: ROMs
                 {% endif %}
                 {% if rom.authorString %}{{rom.authorString}}{% endif %}
               </p>
-              <p><small>Tags: {{ rom.tags | join:", " }}</small></p>
+              <p>{% if rom.tags %}<small>Tags: {{ rom.tags | join:", " }}</small>{% endif %} </p>
               <p><img src="{{ rom.screenshots[0] }}" style="display: block; width: 100%"></img></p>
             </article>
           </a>

@@ -6,7 +6,7 @@ require 'fileutils'
 import_path = "./nes-games-master"
 platform = "nes"
 rom_extension = "nes"
-export_path = "./"
+export_path = "./test"
 ### END CONFIG
 
 

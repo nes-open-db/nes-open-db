@@ -230,6 +230,9 @@
     "authorString": "SlyDog Studios",
     "minPlayers": 2,
     "maxPlayers": 2,
+    "tags": [
+      "multicart"
+    ],
     "runsOnJSNES": true
   },
   {
@@ -262,7 +265,8 @@
     "romLink": "/roms/assimilate/assimilate.nes",
     "authorString": "Nessylum Games",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "tags": ["action", "sci-fi"]
   },
   {
     "added": "2019-02-07",
@@ -278,7 +282,8 @@
     "romLink": "/roms/babelblox/babelblox.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": false
   },
   {
     "added": "2019-02-07",
@@ -294,7 +299,9 @@
     "romLink": "/roms/blaster/blaster.nes",
     "authorString": "HLC! Project",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "tags": ["shoot 'em up"],
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
