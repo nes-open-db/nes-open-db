@@ -13,35 +13,9 @@ title: ROMs tagged {{ page.tag }}
     <div class="pure-g" class="romGrid">
       {% for rom in roms %}
         {% if rom.tags contains tag %}
-          <a href="{{ rom.detailsLink }}" class="unstyledLink gridRom pure-u-sm-1-1 pure-u-md-1-2 pure-u-lg-1-3">
-            <article>
-              <h2>{{ rom.title }}</h2>
-              <p>
-                by
-                {% if rom.authors %}
-                  {% if rom.authors.size == 1 %}
-                    {% assign soleauthor = rom.authors[0] %}
-                    {% assign soleauthor_profile = site.data.authors_index[soleauthor.key] %}
-                    {{ soleauthor_profile.name }}
-                  {% else %}
-                    {% for author in rom.authors %}
-                      {%- assign author_profile = site.data.authors_index[author.key] %}
-                      {%- unless forloop.first %}, {% endunless %}{{ author_profile.name }}
-                    {%- endfor %}
-                  {% endif %}
-                {% endif %}
-                {% if rom.authorString %}{{rom.authorString}}{% endif %}
-                </p>
-                <p>{% if rom.tags %}<small>Tags: {{ rom.tags | join:", " }}</small>{% endif %} </p>
-                <p><img src="{{ rom.screenshots[0] }}" style="display: block; width: 100%"></img></p>
-              </article>
-            </a>
-          {% endif %}
-        {% endfor %}
-        </div>
-      </tbody>
-    </table>
-    <ul>
-    </ul>
-    </main>
+          {% include rom-in-list.html rom=rom %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </main>
 </div>
