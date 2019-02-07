@@ -1073,22 +1073,6 @@
   },
   {
     "added": "2019-02-07",
-    "key": "roboninjaclimb",
-    "platform": "nes",
-    "title": "Robo-Ninja Climb",
-    "released": "2017-11-22",
-    "description": "Robo-Ninja is at it again, this time practicing his climbing and jumping skills before setting out to save the world. In this NES game, you climb and dodge spikes, navigating 5 levels of obstacles.",
-    "screenshots": [
-      "/roms/roboninjaclimb/screenshots/roboninjaclimb.png"
-    ],
-    "detailsLink": "/roms/roboninjaclimb/",
-    "romLink": "/roms/roboninjaclimb/roboninjaclimb.nes",
-    "authorString": "Nathan Tolbert",
-    "minPlayers": 1,
-    "maxPlayers": 1
-  },
-  {
-    "added": "2019-02-07",
     "key": "robotfindskitten",
     "platform": "nes",
     "title": "RobotFindsKitten",
