@@ -756,22 +756,6 @@
   },
   {
     "added": "2019-02-07",
-    "key": "megamountain",
-    "platform": "nes",
-    "title": "Mega Mountain",
-    "released": "2018-02-24",
-    "description": "Your best friend has been kidnapped and taken to the top of the Mega Mountain. You must save him.",
-    "screenshots": [
-      "/roms/megamountain/screenshots/megamountain.png"
-    ],
-    "detailsLink": "/roms/megamountain/",
-    "romLink": "/roms/megamountain/megamountain.nes",
-    "authorString": "AdrianMakesGames, Damian Yerrick",
-    "minPlayers": 1,
-    "maxPlayers": 1
-  },
-  {
-    "added": "2019-02-07",
     "key": "memory",
     "platform": "nes",
     "title": "Memory",
