@@ -1,3 +1,2 @@
-./calc_sha1.sh
-bundle exec jekyll build
+./build_site.sh
 git subtree push --prefix _site gh-pages master
