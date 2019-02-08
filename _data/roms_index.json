@@ -2,6 +2,7 @@
   {
     "added": "2019-01-29",
     "released": "2018-02-24",
+    "platform": "nes",
     "minPlayers": 1,
     "maxPlayers": 1,
     "key": "megamountain",
@@ -29,6 +30,7 @@
   {
     "added": "2019-01-29",
     "released": "2019-01-28",
+    "platform": "nes",
     "minPlayers": 1,
     "maxPlayers": 1,
     "key": "melojellos2",
@@ -57,6 +59,7 @@
   {
     "added": "2019-01-30",
     "released": "2018-01-31",
+    "platform": "nes",
     "minPlayers": 1,
     "maxPlayers": 1,
     "key": "robo-ninja-climb",
@@ -83,6 +86,7 @@
   {
     "added": "2019-01-30",
     "released": "2019-01-04",
+    "platform": "nes",
     "minPlayers": 1,
     "maxPlayers": 4,
     "key": "super-homebrew-war",
@@ -109,6 +113,7 @@
   {
     "added": "2019-02-01",
     "released": "2016",
+    "platform": "nes",
     "minPlayers": 1,
     "maxPlayers": 4,
     "key": "spacey-mcracey",
@@ -136,6 +141,7 @@
   {
     "added": "2019-02-02",
     "released": "2019-01-31",
+    "platform": "nes",
     "minPlayers": 1,
     "maxPlayers": 4,
     "key": "nesert-golfing",
@@ -165,6 +171,7 @@
   {
     "added": "2019-02-03",
     "released": "2018-09-01",
+    "platform": "nes",
     "minPlayers": 1,
     "maxPlayers": 1,
     "key": "kubo",
