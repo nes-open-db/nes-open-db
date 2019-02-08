@@ -1085,7 +1085,8 @@
     "romLink": "/roms/riseofamondus/riseofamondus.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -1103,7 +1104,8 @@
     "minPlayers": 1,
     "maxPlayers": 1,
     "license": "zLib",
-    "licenseLink": "/roms/robotfindskitten/robotfindskitten.txt"
+    "licenseLink": "/roms/robotfindskitten/robotfindskitten.txt",
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -1119,7 +1121,8 @@
     "romLink": "/roms/rpsls/rpsls.nes",
     "authorString": "Dougeff",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -1135,7 +1138,8 @@
     "romLink": "/roms/roulette/roulette.nes",
     "authorString": "Damian Yerrick",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -1152,7 +1156,9 @@
     "authorString": "Mojon Twins",
     "minPlayers": 1,
     "maxPlayers": 1,
-    "license": "GPLv3"
+    "license": "GPLv3",
+    "runsOnJSNES": true,
+    "tags": ["action", "platformer"]
   },
   {
     "added": "2019-02-07",
@@ -1168,7 +1174,9 @@
     "romLink": "/roms/simonesays/simonesays.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["minimalistic", "simon"]
   },
   {
     "added": "2019-02-07",
@@ -1185,7 +1193,9 @@
     "authorString": "Mojon Twins",
     "minPlayers": 1,
     "maxPlayers": 1,
-    "license": "GPLv3"
+    "license": "GPLv3",
+    "runsOnJSNES": true,
+    "tags": ["platformer"]
   },
   {
     "added": "2019-02-07",
@@ -1201,7 +1211,9 @@
     "romLink": "/roms/snailmaze/snailmaze.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["maze"]
   },
   {
     "added": "2019-02-07",
@@ -1218,7 +1230,8 @@
     "authorString": "Pubby",
     "minPlayers": 1,
     "maxPlayers": 1,
-    "license": "MIT"
+    "license": "MIT",
+    "runsOnJSNES": false
   },
   {
     "added": "2019-02-07",
@@ -1234,7 +1247,9 @@
     "romLink": "/roms/superpakpak/superpakpak.nes",
     "authorString": "AOH Games",
     "minPlayers": 2,
-    "maxPlayers": 4
+    "maxPlayers": 4,
+    "tags": ["shoot 'em up"],
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -1252,7 +1267,9 @@
     "minPlayers": 1,
     "maxPlayers": 2,
     "license": "WTFPL",
-    "licenseLink": "http://www.wtfpl.net/txt/copying/"
+    "licenseLink": "http://www.wtfpl.net/txt/copying/",
+    "tags": ["fighting"],
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -1270,7 +1287,9 @@
     "minPlayers": 1,
     "maxPlayers": 2,
     "license": "CC BY-NC-SA 3.0",
-    "licenseLink": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    "licenseLink": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "runsOnJSNES": true,
+    "tags": ["platformer"]
   },
   {
     "added": "2019-02-07",
@@ -1286,7 +1305,9 @@
     "romLink": "/roms/thatswhack/thatswhack.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 2,
-    "maxPlayers": 4
+    "maxPlayers": 4,
+    "tags": ["first person shooter", "reaction"],
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -1302,7 +1323,9 @@
     "romLink": "/roms/theinvasion/theinvasion.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "tags": ["shoot 'em up", "space invaders"],
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
