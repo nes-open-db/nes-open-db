@@ -10,6 +10,12 @@
     "type": "object",
     "title": "ROM",
     "default": null,
+    "if": {
+      "properties": {
+        "platform": { "enum": ["nes"] }
+      }
+    },
+    "then": { "required": ["runsOnJSNES"] },
     "required": [
       "added",
       "platform",
@@ -19,8 +25,7 @@
       "title",
       "detailsLink",
       "romLink",
-      "screenshots",
-      "runsOnJSNES"
+      "screenshots"
     ],
     "properties": {
       "added": {
