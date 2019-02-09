@@ -661,7 +661,9 @@
     "romLink": "/roms/indivisibleonnes/indivisibleonnes.nes",
     "authorString": "KasumiDirect",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["platformer"]
   },
   {
     "added": "2019-02-07",
@@ -677,7 +679,9 @@
     "romLink": "/roms/invaders/invaders.nes",
     "authorString": "Sebastian Mihai",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["shoot 'em up", "clone", "space invaders"]
   },
   {
     "added": "2019-02-07",
@@ -694,7 +698,9 @@
     "authorString": "Mojon Twins",
     "minPlayers": 1,
     "maxPlayers": 1,
-    "license": "GPLv3"
+    "license": "GPLv3",
+    "runsOnJSNES": true,
+    "tags": ["platformer"]
   },
   {
     "added": "2019-02-07",
@@ -710,7 +716,9 @@
     "romLink": "/roms/kyff/kyff.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 4,
-    "maxPlayers": 4
+    "maxPlayers": 4,
+    "runsOnJSNES": true,
+    "tags": ["beat 'em up"]
   },
   {
     "added": "2019-02-07",
@@ -727,7 +735,9 @@
     "authorString": "Mojon Twins",
     "minPlayers": 1,
     "maxPlayers": 1,
-    "license": "LGPLv3"
+    "license": "LGPLv3",
+    "runsOnJSNES": true,
+    "tags": ["platformer"]
   },
   {
     "added": "2019-02-07",
@@ -743,7 +753,9 @@
     "romLink": "/roms/lightshields/lightshields.nes",
     "authorString": "Zutano Games",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["shoot 'em up"]
   },
   {
     "added": "2019-02-07",
@@ -760,7 +772,9 @@
     "authorString": "Pubby",
     "minPlayers": 1,
     "maxPlayers": 1,
-    "license": "MIT"
+    "license": "MIT",
+    "runsOnJSNES": false,
+    "tags": ["platformer"]
   },
   {
     "added": "2019-02-07",
@@ -776,7 +790,9 @@
     "romLink": "/roms/madwizard/madwizard.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "tags": ["adventure", "metroidvania"],
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -792,7 +808,8 @@
     "romLink": "/roms/mashymashy/mashymashy.nes",
     "authorString": "Mitch3a",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -808,7 +825,9 @@
     "romLink": "/roms/memory/memory.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["puzzle"]
   },
   {
     "added": "2019-02-07",
@@ -824,7 +843,9 @@
     "romLink": "/roms/mguard/mguard.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["shoot 'em up"]
   },
   {
     "added": "2019-02-07",
@@ -840,7 +861,9 @@
     "romLink": "/roms/mguard2/mguard2.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["shoot 'em up"]
   },
   {
     "added": "2019-02-07",
