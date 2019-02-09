@@ -348,7 +348,9 @@
     "romLink": "/roms/bombarray/bombarray.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "tags": ["simulation"],
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -366,7 +368,9 @@
     "minPlayers": 1,
     "maxPlayers": 1,
     "license": "CC BY-NC-SA 3.0",
-    "licenseLink": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    "licenseLink": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "runsOnJSNES": true,
+    "tags": ["platformer"]
   },
   {
     "added": "2019-02-07",
@@ -382,7 +386,9 @@
     "romLink": "/roms/bronyblaster/bronyblaster.nes",
     "authorString": "FG Software",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["shoot 'em up", "boss fights"]
   },
   {
     "added": "2019-02-07",
@@ -400,7 +406,9 @@
     "minPlayers": 1,
     "maxPlayers": 1,
     "license": "CC BY-NC-SA 3.0",
-    "licenseLink": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
+    "licenseLink": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "runsOnJSNES": true,
+    "tags": ["platformer"]
   },
   {
     "added": "2019-02-07",
