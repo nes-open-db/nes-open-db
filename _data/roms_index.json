@@ -908,7 +908,9 @@
     "romLink": "/roms/ninjamuncher/ninjamuncher.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["endless runner"]
   },
   {
     "added": "2019-02-07",
@@ -924,7 +926,8 @@
     "romLink": "/roms/nintencattheparody/nintencattheparody.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -940,7 +943,9 @@
     "romLink": "/roms/nopoints/nopoints.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["racing"]
   },
   {
     "added": "2019-02-07",
@@ -956,7 +961,9 @@
     "romLink": "/roms/nomolos/nomolos.nes",
     "authorString": "Gradual Games",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["platformer"]
   },
   {
     "added": "2019-02-07",
@@ -973,7 +980,9 @@
     "authorString": "NovaSquirrel",
     "minPlayers": 1,
     "maxPlayers": 1,
-    "license": "GPLv3"
+    "license": "GPLv3",
+    "runsOnJSNES": true,
+    "tags": ["platformer"]
   },
   {
     "added": "2019-02-07",
@@ -989,7 +998,9 @@
     "romLink": "/roms/obstacletrek/obstacletrek.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["endless runner"]
   },
   {
     "added": "2019-02-07",
@@ -1005,7 +1016,9 @@
     "romLink": "/roms/pegs/pegs.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["puzzle"]
   },
   {
     "added": "2019-02-07",
@@ -1021,7 +1034,9 @@
     "romLink": "/roms/pong1k/pong1k.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["pong", "clone", "minimalistic"]
   },
   {
     "added": "2019-02-07",
@@ -1037,7 +1052,9 @@
     "romLink": "/roms/pong1k2p/pong1k2p.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 2,
-    "maxPlayers": 2
+    "maxPlayers": 2,
+    "runsOnJSNES": true,
+    "tags": ["pong", "clone", "minimalistic"]
   },
   {
     "added": "2019-02-07",
@@ -1054,7 +1071,9 @@
     "authorString": "Pubby",
     "minPlayers": 1,
     "maxPlayers": 1,
-    "license": "MIT"
+    "license": "MIT",
+    "runsOnJSNES": true,
+    "tags": ["puzzle"]
   },
   {
     "added": "2019-02-07",
