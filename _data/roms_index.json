@@ -331,7 +331,8 @@
     "romLink": "/roms/blackboxchallenge/blackboxchallenge.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": false
   },
   {
     "added": "2019-02-07",
