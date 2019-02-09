@@ -1,0 +1,233 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "array",
+  "title": "ROM list",
+  "default": null,
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "ROM",
+    "default": null,
+    "required": [
+      "added",
+      "platform",
+      "minPlayers",
+      "maxPlayers",
+      "key",
+      "title",
+      "detailsLink",
+      "romLink",
+      "screenshots",
+      "runsOnJSNES"
+    ],
+    "properties": {
+      "added": {
+        "$id": "#/items/properties/added",
+        "type": "string",
+        "title": "Added",
+        "description": "When the ROM was added to the database",
+        "examples": [
+          "2019-01-29"
+        ],
+        "pattern": "^[\\d-]+$"
+      },
+      "released": {
+        "$id": "#/items/properties/released",
+        "type": "string",
+        "title": "Released",
+        "description": "Original release date for the ROM",
+        "examples": [
+          "2018-02-24"
+        ],
+        "pattern": "^[\\d-]+$"
+      },
+      "platform": {
+        "$id": "#/items/properties/platform",
+        "type": "string",
+        "enum": [
+          "nes"
+        ],
+        "title": "Platform",
+        "description": "The platform that the ROM runs on",
+        "examples": [
+          "nes"
+        ]
+      },
+      "minPlayers": {
+        "$id": "#/items/properties/minPlayers",
+        "type": "integer",
+        "title": "Minimum players",
+        "default": 1,
+        "examples": [
+          1
+        ]
+      },
+      "maxPlayers": {
+        "$id": "#/items/properties/maxPlayers",
+        "type": "integer",
+        "title": "Maximum players",
+        "default": 1,
+        "examples": [
+          1
+        ]
+      },
+      "key": {
+        "$id": "#/items/properties/key",
+        "type": "string",
+        "title": "Reference key",
+        "default": "",
+        "examples": [
+          "megamountain"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "title": {
+        "$id": "#/items/properties/title",
+        "type": "string",
+        "title": "ROM title",
+        "default": "",
+        "examples": [
+          "Mega Mountain: NES Edition"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "authors": {
+        "$id": "#/items/properties/authors",
+        "type": "array",
+        "title": "The Authors Schema",
+        "default": null,
+        "items": {
+          "$id": "#/items/properties/authors/items",
+          "type": "object",
+          "title": "Author",
+          "default": null,
+          "required": [
+            "role",
+            "key"
+          ],
+          "properties": {
+            "role": {
+              "$id": "#/items/properties/authors/items/properties/role",
+              "type": "string",
+              "enum": [
+                "main",
+                "developer",
+                "graphics",
+                "music"
+              ],
+              "title": "Role",
+              "default": "main",
+              "examples": [
+                "main"
+              ],
+              "pattern": "^(.*)$"
+            },
+            "key": {
+              "$id": "#/items/properties/authors/items/properties/key",
+              "type": "string",
+              "title": "Author reference key",
+              "default": "",
+              "examples": [
+                "adrianmakesgames"
+              ],
+              "pattern": "^(.*)$"
+            }
+          }
+        }
+      },
+      "detailsLink": {
+        "$id": "#/items/properties/detailsLink",
+        "type": "string",
+        "title": "Details link",
+        "description": "URL to details page",
+        "default": "",
+        "examples": [
+          "/roms/megamountain/"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "romLink": {
+        "$id": "#/items/properties/romLink",
+        "type": "string",
+        "title": "ROM link",
+        "description": "URL to ROM data",
+        "examples": [
+          "/roms/megamountain/megamountain.nes"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "screenshots": {
+        "$id": "#/items/properties/screenshots",
+        "type": "array",
+        "title": "Screenshots",
+        "default": null,
+        "items": {
+          "$id": "#/items/properties/screenshots/items",
+          "type": "string",
+          "title": "Screenshot",
+          "examples": [
+            "/roms/megamountain/screenshots/1.gif",
+            "/roms/megamountain/screenshots/2.gif"
+          ],
+          "pattern": "^(.*)$"
+        }
+      },
+      "license": {
+        "$id": "#/items/properties/license",
+        "type": "string",
+        "title": "License",
+        "description": "License which the ROM is under",
+        "default": "",
+        "examples": [
+          "CC-BY-SA 4.0"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "licenseLink": {
+        "$id": "#/items/properties/licenseLink",
+        "type": "string",
+        "title": "License link",
+        "description": "Link to the full description of the license",
+        "default": "",
+        "examples": [
+          "https://creativecommons.org/licenses/by-sa/4.0/"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "tags": {
+        "$id": "#/items/properties/tags",
+        "type": "array",
+        "title": "Tags",
+        "description": "Tags that describe ROM e.g. genre",
+        "default": null,
+        "items": {
+          "$id": "#/items/properties/tags/items",
+          "type": "string",
+          "title": "Tag",
+          "default": "",
+          "examples": [
+            "platformer"
+          ]
+        }
+      },
+      "sourceCodeLink": {
+        "$id": "#/items/properties/sourceCodeLink",
+        "type": "string",
+        "title": "Source code link",
+        "description": "Link to the source code of the ROM",
+        "examples": [
+          "/roms/megamountain/megamountain_source.zip"
+        ]
+      },
+      "runsOnJSNES": {
+        "$id": "#/items/properties/runsOnJSNES",
+        "type": "boolean",
+        "title": "Runs on JSNES",
+        "description": "Whether the ROM can be played on the JSNES emulator. Must be tested",
+        "default": false
+      }
+    }
+  }
+}

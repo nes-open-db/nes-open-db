@@ -279,7 +279,8 @@
     "authorString": "Nessylum Games",
     "minPlayers": 1,
     "maxPlayers": 1,
-    "tags": ["action", "sci-fi"]
+    "tags": ["action", "sci-fi"],
+    "runsOnJSNES": false
   },
   {
     "added": "2019-02-07",
@@ -1069,7 +1070,9 @@
     "romLink": "/roms/rhde/rhde.nes",
     "authorString": "Damian Yerrick",
     "minPlayers": 2,
-    "maxPlayers": 2
+    "maxPlayers": 2,
+    "runsOnJSNES": true,
+    "tags": ["strategy"]
   },
   {
     "added": "2019-02-07",
