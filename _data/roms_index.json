@@ -879,7 +879,9 @@
     "romLink": "/roms/midnightjogger/midnightjogger.nes",
     "authorString": "SlyDog Studios",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true,
+    "tags": ["simulation", "minimalistic"]
   },
   {
     "added": "2019-02-07",
@@ -897,7 +899,9 @@
     "minPlayers": 1,
     "maxPlayers": 1,
     "license": "CC BY-NC-SA 3.0",
-    "licenseLink": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
+    "licenseLink": "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+    "runsOnJSNES": true,
+    "tags": ["adventure", "puzzle"]
   },
   {
     "added": "2019-02-07",
@@ -913,7 +917,8 @@
     "romLink": "/roms/mineshaft/mineshaft.nes",
     "authorString": "Nioreh",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": false
   },
   {
     "added": "2019-02-07",
@@ -929,7 +934,8 @@
     "romLink": "/roms/mouser2/mouser2.nes",
     "authorString": "Tony Young",
     "minPlayers": 1,
-    "maxPlayers": 1
+    "maxPlayers": 1,
+    "runsOnJSNES": true
   },
   {
     "added": "2019-02-07",
@@ -947,7 +953,9 @@
     "minPlayers": 1,
     "maxPlayers": 1,
     "license": "CC BY-SA 4.0",
-    "licenseLink": "http://creativecommons.org/licenses/by-sa/4.0/"
+    "licenseLink": "http://creativecommons.org/licenses/by-sa/4.0/",
+    "runsOnJSNES": true,
+    "tags": ["simulation", "demake"]
   },
   {
     "added": "2019-02-07",
