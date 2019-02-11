@@ -42,7 +42,7 @@
       "/roms/snes/furryrpg/screenshots/furryrpg.png"
     ],
     "detailsLink": "/roms/snes/furryrpg/",
-    "romLink": "/roms/snes/furryrpg/furryrpg.smc",
+    "romLink": "/roms/snes/furryrpg/furryrpg.sfc",
     "authorString": "Ramsis",
     "minPlayers": 1,
     "maxPlayers": 1
@@ -58,7 +58,7 @@
       "/roms/snes/jetpilotrising/screenshots/jetpilotrising.png"
     ],
     "detailsLink": "/roms/snes/jetpilotrising/",
-    "romLink": "/roms/snes/jetpilotrising/jetpilotrising.smc",
+    "romLink": "/roms/snes/jetpilotrising/jetpilotrising.sfc",
     "authorString": "Dieter Von Laser (D4S)",
     "minPlayers": 1,
     "maxPlayers": 1
@@ -90,7 +90,7 @@
       "/roms/snes/questformoney/screenshots/questformoney.png"
     ],
     "detailsLink": "/roms/snes/questformoney/",
-    "romLink": "/roms/snes/questformoney/questformoney.smc",
+    "romLink": "/roms/snes/questformoney/questformoney.sfc",
     "authorString": "Alekmaul, Mojon Twins, KungfuFurby",
     "minPlayers": 1,
     "maxPlayers": 1
@@ -138,7 +138,7 @@
       "/roms/snes/superbossgaiden/screenshots/superbossgaiden.png"
     ],
     "detailsLink": "/roms/snes/superbossgaiden/",
-    "romLink": "/roms/snes/superbossgaiden/superbossgaiden.smc",
+    "romLink": "/roms/snes/superbossgaiden/superbossgaiden.sfc",
     "authorString": "Chrono Moogle and Dieter Von Laser (D4S)",
     "minPlayers": 1,
     "maxPlayers": 1

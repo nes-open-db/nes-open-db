@@ -3,7 +3,7 @@ require 'active_support/core_ext/hash'
 require 'fileutils'
 
 ### CONFIG
-platform = "md"
+platform = "colecovision"
 export_path = "."
 import_path = "./#{platform}-games-master"
 ### END CONFIG

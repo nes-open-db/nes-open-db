@@ -26,7 +26,7 @@
       "/roms/gba/agbhack/screenshots/agbhack.png"
     ],
     "detailsLink": "/roms/gba/agbhack/",
-    "romLink": "/roms/gba/agbhack/agbhack.gba",
+    "romLink": "/roms/gba/agbhack/agbhack.bin",
     "authorString": "Donnie Russell",
     "minPlayers": 1,
     "maxPlayers": 1
@@ -42,7 +42,7 @@
       "/roms/gba/agbrogue/screenshots/agbrogue.png"
     ],
     "detailsLink": "/roms/gba/agbrogue/",
-    "romLink": "/roms/gba/agbrogue/agbrogue.gba",
+    "romLink": "/roms/gba/agbrogue/agbrogue.bin",
     "authorString": "Donnie Russell II",
     "minPlayers": 1,
     "maxPlayers": 1
@@ -122,7 +122,7 @@
       "/roms/gba/asteroidsp/screenshots/asteroidsp.png"
     ],
     "detailsLink": "/roms/gba/asteroidsp/",
-    "romLink": "/roms/gba/asteroidsp/asteroidsp.gba",
+    "romLink": "/roms/gba/asteroidsp/asteroidsp.bin",
     "authorString": "Russ Prince",
     "minPlayers": 1,
     "maxPlayers": 1
@@ -138,7 +138,7 @@
       "/roms/gba/astrohawk/screenshots/astrohawk.png"
     ],
     "detailsLink": "/roms/gba/astrohawk/",
-    "romLink": "/roms/gba/astrohawk/astrohawk.gba",
+    "romLink": "/roms/gba/astrohawk/astrohawk.bin",
     "authorString": "Paul Lay",
     "minPlayers": 1,
     "maxPlayers": 1
@@ -250,7 +250,7 @@
       "/roms/gba/bustamove/screenshots/bustamove.png"
     ],
     "detailsLink": "/roms/gba/bustamove/",
-    "romLink": "/roms/gba/bustamove/bustamove.gba",
+    "romLink": "/roms/gba/bustamove/bustamove.bin",
     "authorString": "Russ Prince",
     "minPlayers": 1,
     "maxPlayers": 1
@@ -314,7 +314,7 @@
       "/roms/gba/chaos/screenshots/chaos.png"
     ],
     "detailsLink": "/roms/gba/chaos/",
-    "romLink": "/roms/gba/chaos/chaos.gba",
+    "romLink": "/roms/gba/chaos/chaos.bin",
     "authorString": "Quirky",
     "minPlayers": 1,
     "maxPlayers": 1
@@ -426,7 +426,7 @@
       "/roms/gba/collisioncourse/screenshots/collisioncourse.png"
     ],
     "detailsLink": "/roms/gba/collisioncourse/",
-    "romLink": "/roms/gba/collisioncourse/collisioncourse.gba",
+    "romLink": "/roms/gba/collisioncourse/collisioncourse.bin",
     "authorString": "Donnie Russell",
     "minPlayers": 1,
     "maxPlayers": 1
@@ -474,7 +474,7 @@
       "/roms/gba/cyclone/screenshots/cyclone.png"
     ],
     "detailsLink": "/roms/gba/cyclone/",
-    "romLink": "/roms/gba/cyclone/cyclone.gba",
+    "romLink": "/roms/gba/cyclone/cyclone.bin",
     "authorString": "Quirky",
     "minPlayers": 1,
     "maxPlayers": 1
@@ -826,7 +826,7 @@
       "/roms/gba/laserchess/screenshots/laserchess.png"
     ],
     "detailsLink": "/roms/gba/laserchess/",
-    "romLink": "/roms/gba/laserchess/laserchess.gba",
+    "romLink": "/roms/gba/laserchess/laserchess.bin",
     "authorString": "Russ Prince",
     "minPlayers": 1,
     "maxPlayers": 1
@@ -952,7 +952,7 @@
       "/roms/gba/monochromancy/screenshots/monochromancy.png"
     ],
     "detailsLink": "/roms/gba/monochromancy/",
-    "romLink": "/roms/gba/monochromancy/monochromancy.gba",
+    "romLink": "/roms/gba/monochromancy/monochromancy.bin",
     "authorString": "Nicholas Scheltema",
     "minPlayers": 1,
     "maxPlayers": 1
@@ -1080,7 +1080,7 @@
       "/roms/gba/pnakys/screenshots/pnakys.png"
     ],
     "detailsLink": "/roms/gba/pnakys/",
-    "romLink": "/roms/gba/pnakys/pnakys.gba",
+    "romLink": "/roms/gba/pnakys/pnakys.bin",
     "authorString": "Torlus",
     "minPlayers": 1,
     "maxPlayers": 1
