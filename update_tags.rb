@@ -1,6 +1,6 @@
 require 'json'
 
-tags = JSON.parse(File.read("./_data/roms_index.json"))
+tags = JSON.parse(File.read("./_data/roms/nes.json"))
   .map { |rom| rom["tags"] or [] }
   .flatten
   .uniq

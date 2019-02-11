@@ -56,7 +56,7 @@ would a random person get some value out of downloading it. If yes, it's probabl
 Filling the submission form is enough, but in the case that you want better control on how the metadata is formatted or want your ROM to be added to the site faster, you can save our time by making a pull request, adding your ROM and metadata directly to the database.
 
 1. Fork this repository
-2. Go to your new fork and find the ROM index at `_data/roms_index.json`. Add a new entry to the list with as much information about your ROM as possible.
+2. Go to your new fork and find the ROM index at `_data/roms/[platform].json`. Add a new entry to the list with as much information about your ROM as possible.
 3. Create a new directory under `roms/` and add your ROM file and associated extra content in the new directory.
 4. If you would like to make sure how the content looks on the site you can compile the site locally with Jekyll and preview the site. However this is not required, we can fix things when your submission is under review.
 5. If you are not sure how to format the data, just take a guess and move on. We will fix everything up when the pull request comes under review.

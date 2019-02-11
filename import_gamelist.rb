@@ -13,7 +13,7 @@ export_path = "./test"
 cd = File.dirname(__FILE__)
 roms_path = File.join(export_path, "roms")
 data_path = File.join(export_path, "_data")
-roms_index = File.join(data_path, "roms_index.json")
+roms_index = File.join(data_path, "roms/#{platform}.json")
 gamelist_path = File.join(import_path, "gamelist.xml")
 
 [export_path, roms_path, data_path].each { |p| FileUtils.mkdir_p p }

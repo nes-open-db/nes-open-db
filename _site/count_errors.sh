@@ -1,1 +1,1 @@
-ajv validate -s _data/roms_index.schema.json -d _data/roms_index.json --all-errors --errors=json 2>&1 | tail -n +2 | jq length
+ajv validate -s _data/roms_index.schema.json -d _data/roms/nes.json --all-errors --errors=json 2>&1 | tail -n +2 | jq length

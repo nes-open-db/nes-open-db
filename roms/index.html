@@ -1,16 +1,6 @@
 ---
 layout: default
-title: ROMs
+title: Browse ROMs
 ---
 
-{% assign roms = site.data.roms_index | sort: 'added' | reverse %}
-
-<div class="pure-u-1">
-    <main>
-      <div class="pure-g" class="romGrid">
-        {% for rom in roms %}
-          {% include rom-in-list.html %}
-        {% endfor %}
-      </div>
-    </main>
-</div>
+<main><a href="/roms/nes"><h2>Browse NES ROMs</h2></a></main>

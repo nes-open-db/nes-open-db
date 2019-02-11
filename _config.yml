@@ -1,15 +1,15 @@
 page_gen-dirs: true
 
 page_gen:
-  - data: roms_index
+  - data: roms.nes
     name: key
     template: romdetail
-    dir: roms
-  - data: roms_index
+    dir: roms/nes
+  - data: roms.nes
     name: key
     template: playrom
-    dir: play
+    dir: play/nes
   - data: tags
     name: tag
     template: roms-by-tag
-    dir: roms/by-tag
+    dir: roms/nes/by-tag
