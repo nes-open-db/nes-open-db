@@ -3,7 +3,7 @@ require 'active_support/core_ext/hash'
 require 'fileutils'
 
 ### CONFIG
-platform = "nes"
+platform = "snes"
 rom_extension = "smc"
 export_path = "./test"
 import_path = "./#{platform}-games-master"
@@ -11,9 +11,9 @@ import_path = "./#{platform}-games-master"
 
 
 cd = File.dirname(__FILE__)
-roms_path = File.join(export_path, "roms")
-data_path = File.join(export_path, "_data")
-roms_index = File.join(data_path, "roms/#{platform}.json")
+roms_path = File.join(export_path, "roms/#{platform}")
+data_path = File.join(export_path, "_data/roms")
+roms_index = File.join(data_path, "#{platform}.json")
 gamelist_path = File.join(import_path, "gamelist.xml")
 
 [export_path, roms_path, data_path].each { |p| FileUtils.mkdir_p p }
@@ -35,7 +35,7 @@ converted_games = games.map { |game|
   files_to_copy.each do |filename|
     is_screenshot = File.extname(filename) == ".png"
     file_basename = File.basename(filename)
-    screenshots.push("/roms/#{key}/screenshots/#{file_basename}") if is_screenshot
+    screenshots.push("/roms/#{platform}/#{key}/screenshots/#{file_basename}") if is_screenshot
 
     dest_dir = if is_screenshot then screenshots_dir else base_dir end
     dest_path = File.join(dest_dir, file_basename)
@@ -56,8 +56,8 @@ converted_games = games.map { |game|
     "released" => Date.parse(game["releasedate"]).to_s,
     "description" => game["desc"],
     "screenshots" => screenshots,
-    "detailsLink" => "/roms/#{key}/",
-    "romLink" => "/roms/#{key}/#{key}.#{rom_extension}",
+    "detailsLink" => "/roms/#{platform}/#{key}/",
+    "romLink" => "/roms/#{platform}/#{key}/#{key}.#{rom_extension}",
     "authorString" => game["developer"],
     "minPlayers" => min_players.to_i,
     "maxPlayers" => max_players.to_i
@@ -76,7 +76,7 @@ end
 
 all_roms = existing_roms + converted_games.drop_while { |rom| existing_keys.include?(rom["key"]) }
 
-File.open(roms_index,"w") do |f|
+File.open(roms_index,"w+") do |f|
   puts "Writing to #{roms_index}"
   f.write(all_roms.to_json)
 end
