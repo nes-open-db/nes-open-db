@@ -833,20 +833,6 @@
   },
   {
     "added": "2019-02-11",
-    "key": "lemmings",
-    "platform": "gba",
-    "title": "LEMMINGS",
-    "released": "2005-04-14",
-    "description": "This is a remake of Lemmings. All graphics have been \"borrowed\" from the original.",
-    "screenshots": [],
-    "detailsLink": "/roms/gba/lemmings/",
-    "romLink": "/roms/gba/lemmings/lemmings.gba",
-    "authorString": "Zapf Bandit",
-    "minPlayers": 1,
-    "maxPlayers": 1
-  },
-  {
-    "added": "2019-02-11",
     "key": "llamaboost",
     "platform": "gba",
     "title": "LLAMABOOOST",
