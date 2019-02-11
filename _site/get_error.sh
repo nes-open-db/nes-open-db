@@ -1,1 +1,0 @@
-ajv validate -s _data/roms_index.schema.json -d _data/roms/nes.json --errors=json 2>&1 | sed '1d' | echo $(tee >(jq .[$(jq .[0].dataPath | grep -o -E '[0-9]+')].key < _data/roms_index.json))

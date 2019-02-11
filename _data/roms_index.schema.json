@@ -52,7 +52,7 @@
         "$id": "#/items/properties/platform",
         "type": "string",
         "enum": [
-          "nes"
+          "nes", "snes", "gba", "c64", "colecovision", "atari2600", "md", "sms", "zxspectrum"
         ],
         "title": "Platform",
         "description": "The platform that the ROM runs on",
