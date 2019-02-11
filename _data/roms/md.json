@@ -1,0 +1,848 @@
+[
+  {
+    "added": "2019-02-11",
+    "key": "asciiwar",
+    "platform": "md",
+    "title": "ASCII WAR",
+    "released": "2015",
+    "description": "A simple 2 player combat game. An evil warlord lives in a dimension where everything is made up of ASCII art. He sent out a scout, to look for new lands to conquer. A resistance group also sent out a scout of their own, and they meet in out dimension to fight. The ships don't shoot bullets, but strings of text.",
+    "screenshots": [
+      "/roms/md/asciiwar/screenshots/asciiwar.png"
+    ],
+    "detailsLink": "/roms/md/asciiwar/",
+    "romLink": "/roms/md/asciiwar/asciiwar.bin",
+    "authorString": "ComradeOj",
+    "minPlayers": 2,
+    "maxPlayers": 2
+  },
+  {
+    "added": "2019-02-11",
+    "key": "astroperdido",
+    "platform": "md",
+    "title": "Astronauta Perdido (Lost Astronaut)",
+    "released": "2018-01-09",
+    "description": "You are a lost astronaut and you need to find a way out. Collect bullets and then fire our the barricade! Controls: A = restart stage; B = laser shoot; C = jump; START = pause game... Game is in spanish, but transalation is really not needed.",
+    "screenshots": [
+      "/roms/md/astroperdido/screenshots/astroperdido.png"
+    ],
+    "detailsLink": "/roms/md/astroperdido/",
+    "romLink": "/roms/md/astroperdido/astroperdido.bin",
+    "authorString": "Nemezes Games",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "barbarian",
+    "platform": "md",
+    "title": "Barbarian (CPC)",
+    "released": "2014-09-25",
+    "description": "In the game, the player is Hegor, a barbarian who must traverse several dungeons and underground habitats to defeat his brother, the evil sorcerer Necron. He has a sword and bow in his arsenal of weapons. Running and jumping, as with many platform games, comprises a large part of the gameplay of this title.",
+    "screenshots": [
+      "/roms/md/barbarian/screenshots/barbarian.png"
+    ],
+    "detailsLink": "/roms/md/barbarian/",
+    "romLink": "/roms/md/barbarian/barbarian.bin",
+    "authorString": "F.L.",
+    "minPlayers": 1,
+    "maxPlayers": 2
+  },
+  {
+    "added": "2019-02-11",
+    "key": "bareknuckleprincesss",
+    "platform": "md",
+    "title": "Bare Knuckled Princess",
+    "released": "2016-07-04",
+    "description": "Princess Linear, the fair and loved princess of Bitland has been openly shamed by Princess Plum of Polygosia, accused of fraternising with lower class men & women. The ancients decree that the only way to resolve matters of this kind is trial by combat! So the 3rd Royal Rumble takes place! Step forth Princess Linear, and defend your home lands honour,  in the ring!",
+    "screenshots": [
+      "/roms/md/bareknuckleprincesss/screenshots/bareknuckleprincesss.png"
+    ],
+    "detailsLink": "/roms/md/bareknuckleprincesss/",
+    "romLink": "/roms/md/bareknuckleprincesss/bareknuckleprincesss.bin",
+    "authorString": "OhCarson",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "bombonbasiccity",
+    "platform": "md",
+    "title": "Bomb on Basic City",
+    "released": "2018-06-10",
+    "description": "Papi is back with a vengeance in the new game Bomb on Basic City. Take flight in Papi's bomber to fight the C++ Invasion Forces and reclaim your homeland in this action packed arcade bomber!",
+    "screenshots": [
+      "/roms/md/bombonbasiccity/screenshots/bombonbasiccity.png"
+    ],
+    "detailsLink": "/roms/md/bombonbasiccity/",
+    "romLink": "/roms/md/bombonbasiccity/bombonbasiccity.bin",
+    "authorString": "Studio Vetea",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "bombx",
+    "platform": "md",
+    "title": "BombX",
+    "released": "2017-03-31",
+    "description": "Objective of this game is to move the boxes and make them explode. All of the boxes have numbers. If you move one other will also countdown. The black squares are the place where the bobms should explode!",
+    "screenshots": [
+      "/roms/md/bombx/screenshots/bombx.png"
+    ],
+    "detailsLink": "/roms/md/bombx/",
+    "romLink": "/roms/md/bombx/bombx.bin",
+    "authorString": "Josh Tari",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "bottled",
+    "platform": "md",
+    "title": "BoTTleD - Tower Defense",
+    "released": "2017-09-13",
+    "description": "A small tower defense game with one level. This level is fairly easy, can you beat it? No proper end condition yet, the enemies just stop as there's only one level.",
+    "screenshots": [
+      "/roms/md/bottled/screenshots/bottled.png"
+    ],
+    "detailsLink": "/roms/md/bottled/",
+    "romLink": "/roms/md/bottled/bottled.md",
+    "authorString": "Cero",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "cavestory",
+    "platform": "md",
+    "title": "Cave Story",
+    "released": "2018-03-12",
+    "description": "The player controls the on-screen character directly using the keyboard or gamepad. The player progresses by navigating platform game puzzles and shooting enemies with the equipped weapon. This is a rewrite/port of the popular freeware game Cave Story for Sega Mega Drive/Genesis.",
+    "screenshots": [
+      "/roms/md/cavestory/screenshots/cavestory.png"
+    ],
+    "detailsLink": "/roms/md/cavestory/",
+    "romLink": "/roms/md/cavestory/cavestory.bin",
+    "authorString": "Andy Grind",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "crazycars",
+    "platform": "md",
+    "title": "Crazy Cars",
+    "released": "2013-08-22",
+    "description": "Remake of the best racing game of Amstrad CPC released in 1988.",
+    "screenshots": [
+      "/roms/md/crazycars/screenshots/crazycars.png"
+    ],
+    "detailsLink": "/roms/md/crazycars/",
+    "romLink": "/roms/md/crazycars/crazycars.bin",
+    "authorString": "F.L.",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "crazydriver",
+    "platform": "md",
+    "title": "Crazy Driver",
+    "released": "2013-09-18",
+    "description": "As the name suggests, you are a crazy driver in this game. All you want is to drive fast! Crazy Driver is a simple driving game where you only need to avoid crashing into other cars. By driving faster, you get a higher score.",
+    "screenshots": [
+      "/roms/md/crazydriver/screenshots/crazydriver.png"
+    ],
+    "detailsLink": "/roms/md/crazydriver/",
+    "romLink": "/roms/md/crazydriver/crazydriver.bin",
+    "authorString": "M-374 LX",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "downforce",
+    "platform": "md",
+    "title": "Downforce : Red Hot Princess Carnage",
+    "released": "2016-07-03",
+    "description": "Survive the race with a damn good time and try to at least come first. But be aware this game is SO fast that at times your eyes may struggle to keep up, especially when using boost lanes.",
+    "screenshots": [
+      "/roms/md/downforce/screenshots/downforce.png"
+    ],
+    "detailsLink": "/roms/md/downforce/",
+    "romLink": "/roms/md/downforce/downforce.bin",
+    "authorString": "PixelArtM, Pocket_Lucho, ManuTrigger, DavidBonus",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "dragonscastle",
+    "platform": "md",
+    "title": "Dragon's Castle",
+    "released": "2016-07-13",
+    "description": "Jump and attack are self-explanatory. Magic is a different kind of attack which gives you more points but it's a bit more risky to use. Currently magic doesn't work on every enemy (this will improve as development progresses). Controls: D-pad: move; A button: magic; B button: attack; C button: jump; Start button: pause.",
+    "screenshots": [
+      "/roms/md/dragonscastle/screenshots/dragonscastle.png"
+    ],
+    "detailsLink": "/roms/md/dragonscastle/",
+    "romLink": "/roms/md/dragonscastle/dragonscastle.bin",
+    "authorString": "Javier Degirolmo (Sik)",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "errorrush",
+    "platform": "md",
+    "title": "Error Rush",
+    "released": "2016-04-27",
+    "description": "The objective of the game is to avoid running into the enemies for as long as you can. One new enemy is spawned every five seconds. Use the d-pad to avoid enemies, and hold 'A' to move faster. Touch an enemy and it's game over!",
+    "screenshots": [
+      "/roms/md/errorrush/screenshots/errorrush.png"
+    ],
+    "detailsLink": "/roms/md/errorrush/",
+    "romLink": "/roms/md/errorrush/errorrush.bin",
+    "authorString": "ComradeOj",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "fixitfelixjr",
+    "platform": "md",
+    "title": "Fix It Felix Jr.",
+    "released": "2014-03-25",
+    "description": "Port of a pseudo retro game in Flash by Disney (to help promote Wreck It Ralph).",
+    "screenshots": [
+      "/roms/md/fixitfelixjr/screenshots/fixitfelixjr.png"
+    ],
+    "detailsLink": "/roms/md/fixitfelixjr/",
+    "romLink": "/roms/md/fixitfelixjr/fixitfelixjr.bin",
+    "authorString": "Airwalk Studios (dra600n)",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "genpoker",
+    "platform": "md",
+    "title": "Gen Poker",
+    "released": "2011-03-09",
+    "description": "Poker game. The rules are simple: get a winning hand, and then either gamble a few times, trying to guess whether the next card is red or black, or just collect. Correct guesses will double your amount won. Guessing incorrectly takes away your winnings. You can collect whatever you won at any time.",
+    "screenshots": [
+      "/roms/md/genpoker/screenshots/genpoker.png"
+    ],
+    "detailsLink": "/roms/md/genpoker/",
+    "romLink": "/roms/md/genpoker/genpoker.bin",
+    "authorString": "Sebastian Mihai",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "glassbreakermd",
+    "platform": "md",
+    "title": "Glass Breaker",
+    "released": "2013-11-25",
+    "description": "Objective of this game is to break all the windows of a house. It is not the easiest task because the inhabitants wont let you do so.",
+    "screenshots": [
+      "/roms/md/glassbreakermd/screenshots/glassbreakermd.png"
+    ],
+    "detailsLink": "/roms/md/glassbreakermd/",
+    "romLink": "/roms/md/glassbreakermd/glassbreakermd.bin",
+    "authorString": "Tmeeco co.(TM)",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "goldrush",
+    "platform": "md",
+    "title": "Gold Rush",
+    "released": "2018-04-01",
+    "description": "Another Guitar Hero clone, Contorls: Gamepad, A, B, C.",
+    "screenshots": [
+      "/roms/md/goldrush/screenshots/goldrush.png"
+    ],
+    "detailsLink": "/roms/md/goldrush/",
+    "romLink": "/roms/md/goldrush/goldrush.bin",
+    "authorString": "Andy Grind",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "goplanes",
+    "platform": "md",
+    "title": "Goplanes",
+    "released": "2012-12-31",
+    "description": "You are a pilot of the plane... You can fly around, shoot things, pick up coins and blast through walls with the charge attack.",
+    "screenshots": [
+      "/roms/md/goplanes/screenshots/goplanes.png"
+    ],
+    "detailsLink": "/roms/md/goplanes/",
+    "romLink": "/roms/md/goplanes/goplanes.bin",
+    "authorString": "DjCouchyCouch",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "gravitypig",
+    "platform": "md",
+    "title": "Gravity Pig",
+    "released": "2015-10-12",
+    "description": "A simple platformer game where you switch gravity instead of jumping. There are 15 stages and a boss fight at the end.",
+    "screenshots": [
+      "/roms/md/gravitypig/screenshots/gravitypig.png"
+    ],
+    "detailsLink": "/roms/md/gravitypig/",
+    "romLink": "/roms/md/gravitypig/gravitypig.bin",
+    "authorString": "ComradeOj",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "grielsquest",
+    "platform": "md",
+    "title": "Griels Quest for the Holy Porron",
+    "released": "2018-07-25",
+    "description": "The gameplay is similar both to Soukoban and the Lolo games, though the focus is not on moving boxes around. Instead, you are a knight who must pick up magic objects to vanquish evil creatures.",
+    "screenshots": [
+      "/roms/md/grielsquest/screenshots/grielsquest.png"
+    ],
+    "detailsLink": "/roms/md/grielsquest/",
+    "romLink": "/roms/md/grielsquest/grielsquest.bin",
+    "authorString": "MoonWatcherMD",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "ikplusdeluxe",
+    "platform": "md",
+    "title": "IK+ Deluxe version",
+    "released": "2017-12-08",
+    "description": "Fight your way through this stunning sequel to International Karate. Spectacular animated backgrounds, amazing moves including double head-kick and bon-bending backflips. This must be an ultimate hit; at the sure hit; not against one but three opponents !!  Gallons on gratuitous fightin' and fumpin' fun to be had here.",
+    "screenshots": [
+      "/roms/md/ikplusdeluxe/screenshots/ikplusdeluxe.png"
+    ],
+    "detailsLink": "/roms/md/ikplusdeluxe/",
+    "romLink": "/roms/md/ikplusdeluxe/ikplusdeluxe.bin",
+    "authorString": "Igor, Troudki",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "junkbots",
+    "platform": "md",
+    "title": "Junkbots",
+    "released": "2014-06-28",
+    "description": "Quickly move with your bot (blue one) and find a treasure - laptop. If the AI bot will find it sooner you loose!",
+    "screenshots": [
+      "/roms/md/junkbots/screenshots/junkbots.png"
+    ],
+    "detailsLink": "/roms/md/junkbots/",
+    "romLink": "/roms/md/junkbots/junkbots.bin",
+    "authorString": "Moon Watcher, Bitslap",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "leovigildosmurcianconspiracy",
+    "platform": "md",
+    "title": "Leovigildo's Murcian Conspiracy",
+    "released": "2014-06-21",
+    "description": "A pretty game on two little sprites shot each other jumping... while fight dolphins ( and cyborg frogs one day) that eats onion fried rings controlled by the evil Leovigildo that conspires to conquer Murcia!",
+    "screenshots": [],
+    "detailsLink": "/roms/md/leovigildosmurcianconspiracy/",
+    "romLink": "/roms/md/leovigildosmurcianconspiracy/leovigildosmurcianconspiracy.bin",
+    "authorString": "1985 Alternativo",
+    "minPlayers": 1,
+    "maxPlayers": 2
+  },
+  {
+    "added": "2019-02-11",
+    "key": "megamindtris",
+    "platform": "md",
+    "title": "Megamindtris",
+    "released": "2017-04-10",
+    "description": "Easy puzzle game: Just sum up the same numbers until you get the desired solution. A row clears when all cells contain the goal value.",
+    "screenshots": [
+      "/roms/md/megamindtris/screenshots/megamindtris.png"
+    ],
+    "detailsLink": "/roms/md/megamindtris/",
+    "romLink": "/roms/md/megamindtris/megamindtris.bin",
+    "authorString": "1985 Alternativo",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "miniplanets",
+    "platform": "md",
+    "title": "Miniplanets",
+    "released": "2018-06-26",
+    "description": "Guide Qisha through 3D miniplanets in this new and unique platformer for Mega Drive. Jump over obstacles and collect keys with the special twist of paths wrapping around to the other end of the miniplanet.",
+    "screenshots": [
+      "/roms/md/miniplanets/screenshots/miniplanets.png"
+    ],
+    "detailsLink": "/roms/md/miniplanets/",
+    "romLink": "/roms/md/miniplanets/miniplanets.bin",
+    "authorString": "SikTheHedgeHog (Javier Degirolmo)",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "msa",
+    "platform": "md",
+    "title": "Mega Squad Advantage",
+    "released": "2014",
+    "description": "Slap the other player around of bunch to win! Your health is shown in your corner. Use the dash strategically to evade your enemy and strike at the right time. You may slap during a dash, and you may dash during a slap. Controls: A - Slap; B - Jump; C - Dash; D-pad - Movements.",
+    "screenshots": [
+      "/roms/md/msa/screenshots/msa.png"
+    ],
+    "detailsLink": "/roms/md/msa/",
+    "romLink": "/roms/md/msa/msa.bin",
+    "authorString": "Michael Moffitt",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "odeiocarros",
+    "platform": "md",
+    "title": "Odeio Carros (I hate cars)",
+    "released": "2017-12-13",
+    "description": "Destroy all cars, in each phase, using less number of kicks. To destroy the cars, you have to make two cars of the same color touch each other. Cones can help you or defend. Game is in portuguese, but it is so simple that you don't nedd a translation.",
+    "screenshots": [
+      "/roms/md/odeiocarros/screenshots/odeiocarros.png"
+    ],
+    "detailsLink": "/roms/md/odeiocarros/",
+    "romLink": "/roms/md/odeiocarros/odeiocarros.bin",
+    "authorString": "Nemezes Games",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "ohmummy",
+    "platform": "md",
+    "title": "Oh Mummy!",
+    "released": "2015-08-27",
+    "description": "2-in-1 (port and original version of Amstrad CPC game). Oh Mummy Genesis is a remake of the classic Oh Mummy by Amstrad. This version for Mega Drive was developed by Pocket Lucho, recreating the original and adding a totally new game with many extras.",
+    "screenshots": [
+      "/roms/md/ohmummy/screenshots/ohmummy.png"
+    ],
+    "detailsLink": "/roms/md/ohmummy/",
+    "romLink": "/roms/md/ohmummy/ohmummy.bin",
+    "authorString": "1985 alternativo",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "papicommandoremix",
+    "platform": "md",
+    "title": "Papi Commando (Remix)",
+    "released": "2016-06-11",
+    "description": "Papi Commando and his wife are at war with the CePlusPlus because they stole them their CommoStrad! But it will be necessary to clean at first 11 zones of the BaseCamp ! Exciting Gameplay ... Up to the final Boss, terrible Colonel KASSTAGOUL guard of the retro treasure!",
+    "screenshots": [
+      "/roms/md/papicommandoremix/screenshots/papicommandoremix.png"
+    ],
+    "detailsLink": "/roms/md/papicommandoremix/",
+    "romLink": "/roms/md/papicommandoremix/papicommandoremix.bin",
+    "authorString": "Studio Vetea",
+    "minPlayers": 1,
+    "maxPlayers": 2
+  },
+  {
+    "added": "2019-02-11",
+    "key": "papicommandotennis",
+    "platform": "md",
+    "title": "Papi Commando Tennis",
+    "released": "2018-03-17",
+    "description": "This is the new Demo of Papi Tennis ! You can play with a Friend or against AI for training of a 1 set Match !! Controls: PAD - Move Papi; Button A - Normal Shoot; UP & Button A - Long Shoot; DOWN & Button A - Short Shoot; Button A & Button B - Power Shoot; Button START - Pause Game.",
+    "screenshots": [
+      "/roms/md/papicommandotennis/screenshots/papicommandotennis.png"
+    ],
+    "detailsLink": "/roms/md/papicommandotennis/",
+    "romLink": "/roms/md/papicommandotennis/papicommandotennis.bin",
+    "authorString": "Studio Vetea",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "pingouinbleu",
+    "platform": "md",
+    "title": "Pingouin Bleu",
+    "released": "2014-12-06",
+    "description": "Pingouin Bleu is a horizontal shmup. A to shoot; B to switch between three weapons; C to \"grab\" things, but it's a prototype feature and only works on the red spinning guys. I figured I'd keep it in for fun. Pick up stars left by defeated enemies to boost your weapon meter. More stars equals upgraded weapons.",
+    "screenshots": [
+      "/roms/md/pingouinbleu/screenshots/pingouinbleu.png"
+    ],
+    "detailsLink": "/roms/md/pingouinbleu/",
+    "romLink": "/roms/md/pingouinbleu/pingouinbleu.bin",
+    "authorString": "DjCouchyCouch",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "pingouinrose",
+    "platform": "md",
+    "title": "Pingouin Rose",
+    "released": "2014-12-05",
+    "description": "A small platformer game, where you need to bring stuffed toys (mostly penguins) back to the house.",
+    "screenshots": [
+      "/roms/md/pingouinrose/screenshots/pingouinrose.png"
+    ],
+    "detailsLink": "/roms/md/pingouinrose/",
+    "romLink": "/roms/md/pingouinrose/pingouinrose.bin",
+    "authorString": "DjCouchyCouch",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "pongram",
+    "platform": "md",
+    "title": "Pong RAM",
+    "released": "2009-03-09",
+    "description": "It is a small game of pong for Mega Drive / Genesis that makes no use of RAM at all, everything is done on CPU registers. You have semi challenging opponent, 2P mode, simple sound effect and nothing more.",
+    "screenshots": [
+      "/roms/md/pongram/screenshots/pongram.png"
+    ],
+    "detailsLink": "/roms/md/pongram/",
+    "romLink": "/roms/md/pongram/pongram.bin",
+    "authorString": "Tmeeco co.(TM)",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "projectmd",
+    "platform": "md",
+    "title": "Project MD",
+    "released": "2012-04-29",
+    "description": "In this game, you play as Stephany, who just loves playing games; And since she renders everyday life as boring, in modern day, she creates her own virtual world to roam around in and enjoy, but not all is happy in this realm, as she will find out later on.",
+    "screenshots": [
+      "/roms/md/projectmd/screenshots/projectmd.png"
+    ],
+    "detailsLink": "/roms/md/projectmd/",
+    "romLink": "/roms/md/projectmd/projectmd.bin",
+    "authorString": "Javier Degirolmo (Sik)",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "racer",
+    "platform": "md",
+    "title": "Racer",
+    "released": "2013-03-16",
+    "description": "The essence of the gameplay is that the player presented a car traveling along the road. The road is symbolized by the green line. And at each turn the player needs to choose one of two options, where to turn the steering wheel relative to the driver: to the right or to the left. The game is complicated by the fact that the player needs to mentally represent the position of the car and at what turn it is now. After passing several turns the car reaches the finish line, after which it moves to the next more difficult level. From level to level, only the number of turns is added; changes route.",
+    "screenshots": [
+      "/roms/md/racer/screenshots/racer.png"
+    ],
+    "detailsLink": "/roms/md/racer/",
+    "romLink": "/roms/md/racer/racer.bin",
+    "authorString": "TOF Studio",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "radrhino",
+    "platform": "md",
+    "title": "Rad Rhino",
+    "released": "2018-08-14",
+    "description": "You are the last Rhino and Birb in the world, forced out of what little wild lands remain. Now there's nothing left to do but kill every human. Two player shooting action! It's called Rad Rhino but player 1 is the Birb. Shoot, run, and flap!",
+    "screenshots": [
+      "/roms/md/radrhino/screenshots/radrhino.png"
+    ],
+    "detailsLink": "/roms/md/radrhino/",
+    "romLink": "/roms/md/radrhino/radrhino.bin",
+    "authorString": "Triger Mountain",
+    "minPlayers": 1,
+    "maxPlayers": 2
+  },
+  {
+    "added": "2019-02-11",
+    "key": "redqueenrampage",
+    "platform": "md",
+    "title": "Red Queen Rampage",
+    "released": "2016-07-02",
+    "description": "Red Queen has been captured inside deadly maze, she is going to kill everything on her way to freedom.",
+    "screenshots": [
+      "/roms/md/redqueenrampage/screenshots/redqueenrampage.png"
+    ],
+    "detailsLink": "/roms/md/redqueenrampage/",
+    "romLink": "/roms/md/redqueenrampage/redqueenrampage.bin",
+    "authorString": "Demens Deum",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "returntogenesis",
+    "platform": "md",
+    "title": "Return To Genesis",
+    "released": "2018",
+    "description": "For years the scientists tolled to produce products and medicines that are now taken for granted. Then one by one the planets were overrun by MECHANAUTS and the scientists forced into slavery. Now the Mechanauts themselves are at war. Their armies are away, the occupied planets barely defended. NOW IT IS YOUR CHANCE ! Rescue all of the scientists from the planets. Some of the scientists may bring their latest project with them to aid you in your mission. GO! NOW IS TIME to RETURN TO GENESIS !",
+    "screenshots": [
+      "/roms/md/returntogenesis/screenshots/returntogenesis.png"
+    ],
+    "detailsLink": "/roms/md/returntogenesis/",
+    "romLink": "/roms/md/returntogenesis/returntogenesis.bin",
+    "authorString": "Igor, Troudki",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "rickdangerous2",
+    "platform": "md",
+    "title": "Rick Dangerous II",
+    "released": "2018-01-21",
+    "description": "Here is our hero more intrepid than ever! Rick Dangerous, the indomitable Superhero and philatelist in his spare time, is back after defeating Fat Man during his first adventure. Fat Man is back and Rick has to fight him again to save the Earth from the ugly aliens.",
+    "screenshots": [
+      "/roms/md/rickdangerous2/screenshots/rickdangerous2.png"
+    ],
+    "detailsLink": "/roms/md/rickdangerous2/",
+    "romLink": "/roms/md/rickdangerous2/rickdangerous2.bin",
+    "authorString": "Alekmaul",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "scorpionilluminati",
+    "platform": "md",
+    "title": "Scorpion Illuminati",
+    "released": "2015-04-12",
+    "description": "Scorpion Illuminati is an open source homebrew rhythm game - a Guitar Hero clone. Controls: Green - left; Red - right; Yellow - A; Blue - B; Orange - C",
+    "screenshots": [
+      "/roms/md/scorpionilluminati/screenshots/scorpionilluminati.png"
+    ],
+    "detailsLink": "/roms/md/scorpionilluminati/",
+    "romLink": "/roms/md/scorpionilluminati/scorpionilluminati.bin",
+    "authorString": "MoonWatcherMD",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "shatteringjaws",
+    "platform": "md",
+    "title": "Shattering Jaws",
+    "released": "2016-07-04",
+    "description": "You are little Timmy. Be a good boy and pay attention to mom's advice. Exceed level 4 and get your reward. Be smart, you are the slowest thing out there, learn how to use boats to your advantage. It may be challenging sometimes, don't give up!",
+    "screenshots": [
+      "/roms/md/shatteringjaws/screenshots/shatteringjaws.png"
+    ],
+    "detailsLink": "/roms/md/shatteringjaws/",
+    "romLink": "/roms/md/shatteringjaws/shatteringjaws.md",
+    "authorString": "MoonWatcherMD",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "starchaser",
+    "platform": "md",
+    "title": "Star Chaser",
+    "released": "2015-09-20",
+    "description": "Taking control of one of four coloured balls, your task is to zoom around the maze-like scenery in a race to gather the forming stars before your enemies. The game is pretty much finished except for the complete lack of sound (ouch).",
+    "screenshots": [
+      "/roms/md/starchaser/screenshots/starchaser.png"
+    ],
+    "detailsLink": "/roms/md/starchaser/",
+    "romLink": "/roms/md/starchaser/starchaser.bin",
+    "authorString": "Javier Degirolmo (Sik)",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "tgunii",
+    "platform": "md",
+    "title": "T-Gun II",
+    "released": "2015-06-26",
+    "description": "This is the story of the two metal hawks, Ruby and Cobalt. While floating through space, they happened upon the bird sanctuary planet of Toal. The observatory space station and surface of the planet were being devoured by a swarm of space insects. Using bits granted to the by the phantom bird of planet Toal, the metal hawks wiped out the invaders. Ruby and Cobalt then perched on to a mountain top and turned to stone. Hundreds of orbits of the planet have passed. The space insects have returned with a  device called the Buzzstar. It has the power to burn the atmosphere off of a planet. The old observatory space station is already infested, and the Buzzstar is close. Ruby and Cobalt return to their original form and fly off to meet the invaders once again. Can the metal hawks conquer 7 stages with wave after wave of invaders and giant screen filling bosses?",
+    "screenshots": [
+      "/roms/md/tgunii/screenshots/tgunii.png"
+    ],
+    "detailsLink": "/roms/md/tgunii/",
+    "romLink": "/roms/md/tgunii/tgunii.smd",
+    "authorString": "Robot Urchin",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "tronow",
+    "platform": "md",
+    "title": "Tro-Now",
+    "released": "2015-07-26",
+    "description": "A 16-bit Tron game. The light cycle battles featured in Tron are probably the most iconic sequences of the movie, and it spawn hundreds of games with the same gameplay.",
+    "screenshots": [
+      "/roms/md/tronow/screenshots/tronow.png"
+    ],
+    "detailsLink": "/roms/md/tronow/",
+    "romLink": "/roms/md/tronow/tronow.bin",
+    "authorString": "1985 Alternativo",
+    "minPlayers": 1,
+    "maxPlayers": 4
+  },
+  {
+    "added": "2019-02-11",
+    "key": "twocyclops",
+    "platform": "md",
+    "title": "Two Cyclops (Dois Ciclopes)",
+    "released": "2018",
+    "description": "Jump with Cyclop, avoid obstacles and find the flag. You have 3 lives per level. For 1 or 2 players, with 3 modes: Easy, Normal, Hard. You can choose language: Spanish or English.",
+    "screenshots": [
+      "/roms/md/twocyclops/screenshots/twocyclops.png"
+    ],
+    "detailsLink": "/roms/md/twocyclops/",
+    "romLink": "/roms/md/twocyclops/twocyclops.bin",
+    "authorString": "Nemezes Games",
+    "minPlayers": 1,
+    "maxPlayers": 2
+  },
+  {
+    "added": "2019-02-11",
+    "key": "ultimatetetris",
+    "platform": "md",
+    "title": "Ultimate Tetris",
+    "released": "2001",
+    "description": "This is a tetris clone for Sega Genesis/Mega Drive. Includes several options for 1 player, player vs cpu, 2 players...",
+    "screenshots": [
+      "/roms/md/ultimatetetris/screenshots/ultimatetetris.png"
+    ],
+    "detailsLink": "/roms/md/ultimatetetris/",
+    "romLink": "/roms/md/ultimatetetris/ultimatetetris.bin",
+    "authorString": "Haroldo OK!",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "vilq",
+    "platform": "md",
+    "title": "VilQ",
+    "released": "2016-09-04",
+    "description": "Behind the seven mountains, behind seven forests, lived a herd of animals called wolves. Wolf VILQ lived in this wolf pack you can easily get to know him after your tummy stomach. Controls: RIGHT - run forward; LEFT - stand; DOWN - slide on back; A, B, C - jump; A, B, C (In air) - double jump. On game over, you will have hi-score.",
+    "screenshots": [
+      "/roms/md/vilq/screenshots/vilq.png"
+    ],
+    "detailsLink": "/roms/md/vilq/",
+    "romLink": "/roms/md/vilq/vilq.bin",
+    "authorString": "AceMan, Axi0maT, tehKaiN",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "vilqadventure",
+    "platform": "md",
+    "title": "VilQ Adventure",
+    "released": "2017-10-21",
+    "description": "A classic jump'n run game in cute style with nice details and some great music! This one is a non stop side scrolling jump, run and slider in which you need to avoid the enemies, pick up the food and get as far along as possible to reach an ever higher score. This is second VilQ game, where you can select your hero: VilQ the wolf or Little Red Riding Hood.",
+    "screenshots": [
+      "/roms/md/vilqadventure/screenshots/vilqadventure.png"
+    ],
+    "detailsLink": "/roms/md/vilqadventure/",
+    "romLink": "/roms/md/vilqadventure/vilqadventure.bin",
+    "authorString": "AceMan, Axi0maT, Koyot1222 ",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "violencepingouin",
+    "platform": "md",
+    "title": "Violence Pingouin",
+    "released": "2014-12-01",
+    "description": "The player must help Violence Pingouin to slaughter few robots.",
+    "screenshots": [
+      "/roms/md/violencepingouin/screenshots/violencepingouin.png"
+    ],
+    "detailsLink": "/roms/md/violencepingouin/",
+    "romLink": "/roms/md/violencepingouin/violencepingouin.bin",
+    "authorString": "DJCC",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "virtuaworm",
+    "platform": "md",
+    "title": "Virtua Worm",
+    "released": "2016-02-12",
+    "description": "Like pac-man crossd with snake. Navigate the mazes, but don't run in to yourself! Basically a clone of an old web game called nibblet.",
+    "screenshots": [
+      "/roms/md/virtuaworm/screenshots/virtuaworm.png"
+    ],
+    "detailsLink": "/roms/md/virtuaworm/",
+    "romLink": "/roms/md/virtuaworm/virtuaworm.bin",
+    "authorString": "ComradeOj",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "virtuaworm2",
+    "platform": "md",
+    "title": "Virtua Worm 2",
+    "released": "2018-10-09",
+    "description": "Virtua Worm 2 is more than just the old game with new levels. Virtua Worm 2 has slightly different gameplay rules than the first game. In this game, you must collect a set number of food rather than clearing the whole stage. After collecting a piece of food, another will spawn in a random location. The stage is finished after you collect a predetermined amount of food. In addition, you can collect a frenzy orb which increases you speed and spawns additional food.",
+    "screenshots": [
+      "/roms/md/virtuaworm2/screenshots/virtuaworm2.png"
+    ],
+    "detailsLink": "/roms/md/virtuaworm2/",
+    "romLink": "/roms/md/virtuaworm2/virtuaworm2.bin",
+    "authorString": "ComradeOj",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "wackywilly",
+    "platform": "md",
+    "title": "Wacky Willy Weiner Sausage Surfer",
+    "released": "2017-01-22",
+    "description": "A Megadrive surfing game with a twist. Sausage, the Origins : The wacky Willy Weiner (his real name) has to please the mighty king of all seas - the sea lion seen in the jam keynote video who waves his flipper at the end - by surfing a crowded wave and collecting cool items. The rhythm part comes from the layout of these elements. The more you get the better the background music improves. Additionally some digitized sample of a TV documentary on the true \"Strasbourg's sausage\" is played while collecting the items. Carefully though ! You have to avoid sharks who love the sausages.",
+    "screenshots": [
+      "/roms/md/wackywilly/screenshots/wackywilly.png"
+    ],
+    "detailsLink": "/roms/md/wackywilly/",
+    "romLink": "/roms/md/wackywilly/wackywilly.bin",
+    "authorString": "Cr30s, Bjorn",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "xump2",
+    "platform": "md",
+    "title": "Xump 2: Back in Space",
+    "released": "2017-04-13",
+    "description": "Help Misuki to clean up deserted space fields. Luckily Holger borrowed out his headbot Xump, who will take over again. Clear all dissolving tiles on several single-screen levels by simply stepping on them, one by one. Few fields are secured with mines and need a double tap. Mines can be blown up when passing by or disarmed by Xump when staying on this specific field for a short moment. Certainly the mission sounds easier than it will be.",
+    "screenshots": [
+      "/roms/md/xump2/screenshots/xump2.png"
+    ],
+    "detailsLink": "/roms/md/xump2/",
+    "romLink": "/roms/md/xump2/xump2.bin",
+    "authorString": "Retroguru",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  }
+]

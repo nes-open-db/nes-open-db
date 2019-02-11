@@ -25,6 +25,18 @@ page_gen:
     name: key
     template: romdetail
     dir: roms/sms
+  - data: roms.md
+    name: key
+    template: romdetail
+    dir: roms/md
+  - data: roms.zxspectrum
+    name: key
+    template: romdetail
+    dir: roms/zxspectrum
+  - data: roms.c64
+    name: key
+    template: romdetail
+    dir: roms/c64
   - data: roms.nes
     name: key
     template: playrom

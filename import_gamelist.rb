@@ -3,8 +3,8 @@ require 'active_support/core_ext/hash'
 require 'fileutils'
 
 ### CONFIG
-platform = "c64"
-export_path = "./test"
+platform = "md"
+export_path = "."
 import_path = "./#{platform}-games-master"
 ### END CONFIG
 
@@ -24,9 +24,11 @@ games = doc["gameList"]["game"]
 converted_games = games.map { |game|
   rom_path = File.join(import_path, game["path"])
   key = File.basename(rom_path, File.extname(game["path"]))
+  puts "Importing #{key}..."
   base_dir = File.join(roms_path, key)
   screenshots_dir = File.join(base_dir, "screenshots")
   [base_dir, screenshots_dir].each { |p| FileUtils.mkdir_p p }
+
 
   #copy files
   files_to_copy = Dir[File.join(import_path, "#{key}.*")]
@@ -47,13 +49,17 @@ converted_games = games.map { |game|
 
   ext = File.extname(game["path"])
 
+  d = game["releasedate"].split('T')[0]
+
+  d = if d[4..7] == "0000" then d[0..3] else "#{d[0..3]}-#{d[4..5]}-#{d[6..7]}" end
+
   #return json for index
   {
     "added" => Date.today().to_s,
     "key" => key,
     "platform" => platform,
     "title" => game["name"],
-    "released" => Date.parse(game["releasedate"]).to_s,
+    "released" => d,
     "description" => game["desc"],
     "screenshots" => screenshots,
     "detailsLink" => "/roms/#{platform}/#{key}/",
