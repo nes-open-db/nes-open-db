@@ -3,8 +3,7 @@ require 'active_support/core_ext/hash'
 require 'fileutils'
 
 ### CONFIG
-platform = "snes"
-rom_extension = "smc"
+platform = "c64"
 export_path = "./test"
 import_path = "./#{platform}-games-master"
 ### END CONFIG
@@ -46,6 +45,7 @@ converted_games = games.map { |game|
   min_players = if /\d-\d/.match(game["players"]) then game["players"].split('-')[0] else game["players"] end
   max_players = if /\d-\d/.match(game["players"]) then game["players"].split('-')[1] else game["players"] end
 
+  ext = File.extname(game["path"])
 
   #return json for index
   {
@@ -57,7 +57,7 @@ converted_games = games.map { |game|
     "description" => game["desc"],
     "screenshots" => screenshots,
     "detailsLink" => "/roms/#{platform}/#{key}/",
-    "romLink" => "/roms/#{platform}/#{key}/#{key}.#{rom_extension}",
+    "romLink" => "/roms/#{platform}/#{key}/#{key}#{ext}",
     "authorString" => game["developer"],
     "minPlayers" => min_players.to_i,
     "maxPlayers" => max_players.to_i
