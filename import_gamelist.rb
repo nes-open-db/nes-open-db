@@ -3,10 +3,10 @@ require 'active_support/core_ext/hash'
 require 'fileutils'
 
 ### CONFIG
-import_path = "./nes-games-master"
 platform = "nes"
-rom_extension = "nes"
+rom_extension = "smc"
 export_path = "./test"
+import_path = "./#{platform}-games-master"
 ### END CONFIG
 
 
