@@ -13,6 +13,18 @@ page_gen:
     name: key
     template: romdetail
     dir: roms/gba
+  - data: roms.atari2600
+    name: key
+    template: romdetail
+    dir: roms/atari2600
+  - data: roms.colecovision
+    name: key
+    template: romdetail
+    dir: roms/colecovision
+  - data: roms.sms
+    name: key
+    template: romdetail
+    dir: roms/sms
   - data: roms.nes
     name: key
     template: playrom
