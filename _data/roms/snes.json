@@ -1,1 +1,146 @@
-[{"added":"2019-02-11","key":"astrohawk","platform":"snes","title":"Astrohawk","released":"2003-05-15","description":"Solid Asteroids style game for SNES.","screenshots":["/roms/snes/astrohawk/screenshots/astrohawk.png"],"detailsLink":"/roms/snes/astrohawk/","romLink":"/roms/snes/astrohawk/astrohawk.smc","authorString":"Paul Lay","minPlayers":1,"maxPlayers":1},{"added":"2019-02-11","key":"bucket","platform":"snes","title":"Bucket","released":"2012-09-11","description":"You control Hugz the polar bear, who must deliver buckets to the angry walruses roaming about. Pick up buckets with the A button and place them on the ground with the B button, so that walruses walk into them. But be careful - if you get hit by a walrus, you have to start over! Once a walrus reaches a bucket, it becomes pacified and disappears.","screenshots":["/roms/snes/bucket/screenshots/bucket.png"],"detailsLink":"/roms/snes/bucket/","romLink":"/roms/snes/bucket/bucket.smc","authorString":"Sebastian Mihai","minPlayers":1,"maxPlayers":1},{"added":"2019-02-11","key":"furryrpg","platform":"snes","title":"Furry RPG","released":"2018-10-19","description":"RPG game with action/adventure elements. Characters in the game are anthropomorphic animals, like wolves and big cats. Alec and Lilac agree to return home in order to warn both the Palace and the population of Librefur of the impending invasion. But before they can even leave the capital of Fleckenstein, the four friends are all arrested and put in separate jails, knowing they will be publically executed on the very next morning for alleged high treason. Alec has to make a decision the world he knows depends upon-as do both his own life and the lives of all his friends ... ","screenshots":["/roms/snes/furryrpg/screenshots/furryrpg.png"],"detailsLink":"/roms/snes/furryrpg/","romLink":"/roms/snes/furryrpg/furryrpg.smc","authorString":"Ramsis","minPlayers":1,"maxPlayers":1},{"added":"2019-02-11","key":"jetpilotrising","platform":"snes","title":"Jet Pilot Rising","released":"2008-02-11","description":"A single-button game featuring a cat riding a rocket.","screenshots":["/roms/snes/jetpilotrising/screenshots/jetpilotrising.png"],"detailsLink":"/roms/snes/jetpilotrising/","romLink":"/roms/snes/jetpilotrising/jetpilotrising.smc","authorString":"Dieter Von Laser (D4S)","minPlayers":1,"maxPlayers":1},{"added":"2019-02-11","key":"nwarpdaisakusen","platform":"snes","title":"N-Warp Daisakusen","released":"2009-05-15","description":"N-Warp Daisakusen is a deathmatch minigame for eight human players. Connect two Multitaps and eight joypads to your SNES, invite some friends and compete for the first place by beating and kicking the shit out of the other players.","screenshots":["/roms/snes/nwarpdaisakusen/screenshots/nwarpdaisakusen.png"],"detailsLink":"/roms/snes/nwarpdaisakusen/","romLink":"/roms/snes/nwarpdaisakusen/nwarpdaisakusen.smc","authorString":"Dieter Von Laser (D4S)","minPlayers":8,"maxPlayers":8},{"added":"2019-02-11","key":"questformoney","platform":"snes","title":"Uwol, Quest For Money","released":"2012-08-18","description":"Uwol is the adaptation of Uwol Question Money on ZX Spectrum.","screenshots":["/roms/snes/questformoney/screenshots/questformoney.png"],"detailsLink":"/roms/snes/questformoney/","romLink":"/roms/snes/questformoney/questformoney.smc","authorString":"Alekmaul, Mojon Twins, KungfuFurby","minPlayers":1,"maxPlayers":1},{"added":"2019-02-11","key":"rockfall","platform":"snes","title":"Rockfall","released":"1998-02-21","description":"Similar game to 'Exodus' game for NES. Exodus: The player controls the biblical figure Moses as he leads the Israelites to the promised land, meaning he goes through a labyrinth.","screenshots":["/roms/snes/rockfall/screenshots/rockfall.png"],"detailsLink":"/roms/snes/rockfall/","romLink":"/roms/snes/rockfall/rockfall.smc","authorString":"Paul Lay, Harvey A. Kong Tin","minPlayers":1,"maxPlayers":1},{"added":"2019-02-11","key":"saf","platform":"snes","title":"Skipp And Friends: Unexpected Journey","released":"2009-06-01","description":"The object of the game is to move all three characters to the EXIT in each level. Each player has 2 limited special abilities that you may use to help advance through the level. The in-game status bar displays the name of each ability and how many times it can be used during that level.\\nFor example, Apple's two abilities are CARDKEY and SCREAM. Using CARDKEY next to a door will cause it to open and detract one CARDKEY point (you need at least one point to open a door). Her SCREAM stuns nearby enemies for a short period of time.\\nAll three players must be alive and to the exit to complete the level. If you get yourself stuck, press START to pause and then SELECT to restart the level.\\nAfter you complete each level a 4 letter password is given to you so that you may resume the game using the Password option at the title screen, after your system has been shut off.","screenshots":["/roms/snes/saf/screenshots/saf.png"],"detailsLink":"/roms/snes/saf/","romLink":"/roms/snes/saf/saf.smc","authorString":"Mukunda Johnson, Ken Snyder, Steven Velema, Hubert Lamontagne","minPlayers":1,"maxPlayers":1},{"added":"2019-02-11","key":"superbossgaiden","platform":"snes","title":"Super Boss Gaiden","released":"2009-06-01","description":"This game is so much fun, wreck 'em all enemies in your way is so cool, the music is so great too.","screenshots":["/roms/snes/superbossgaiden/screenshots/superbossgaiden.png"],"detailsLink":"/roms/snes/superbossgaiden/","romLink":"/roms/snes/superbossgaiden/superbossgaiden.smc","authorString":"Chrono Moogle and Dieter Von Laser (D4S)","minPlayers":1,"maxPlayers":1}]
+[
+  {
+    "added": "2019-02-11",
+    "key": "astrohawk",
+    "platform": "snes",
+    "title": "Astrohawk",
+    "released": "2003-05-15",
+    "description": "Solid Asteroids style game for SNES.",
+    "screenshots": [
+      "/roms/snes/astrohawk/screenshots/astrohawk.png"
+    ],
+    "detailsLink": "/roms/snes/astrohawk/",
+    "romLink": "/roms/snes/astrohawk/astrohawk.smc",
+    "authorString": "Paul Lay",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "bucket",
+    "platform": "snes",
+    "title": "Bucket",
+    "released": "2012-09-11",
+    "description": "You control Hugz the polar bear, who must deliver buckets to the angry walruses roaming about. Pick up buckets with the A button and place them on the ground with the B button, so that walruses walk into them. But be careful - if you get hit by a walrus, you have to start over! Once a walrus reaches a bucket, it becomes pacified and disappears.",
+    "screenshots": [
+      "/roms/snes/bucket/screenshots/bucket.png"
+    ],
+    "detailsLink": "/roms/snes/bucket/",
+    "romLink": "/roms/snes/bucket/bucket.smc",
+    "authorString": "Sebastian Mihai",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "furryrpg",
+    "platform": "snes",
+    "title": "Furry RPG",
+    "released": "2018-10-19",
+    "description": "RPG game with action/adventure elements. Characters in the game are anthropomorphic animals, like wolves and big cats. Alec and Lilac agree to return home in order to warn both the Palace and the population of Librefur of the impending invasion. But before they can even leave the capital of Fleckenstein, the four friends are all arrested and put in separate jails, knowing they will be publically executed on the very next morning for alleged high treason. Alec has to make a decision the world he knows depends upon-as do both his own life and the lives of all his friends ... ",
+    "screenshots": [
+      "/roms/snes/furryrpg/screenshots/furryrpg.png"
+    ],
+    "detailsLink": "/roms/snes/furryrpg/",
+    "romLink": "/roms/snes/furryrpg/furryrpg.smc",
+    "authorString": "Ramsis",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "jetpilotrising",
+    "platform": "snes",
+    "title": "Jet Pilot Rising",
+    "released": "2008-02-11",
+    "description": "A single-button game featuring a cat riding a rocket.",
+    "screenshots": [
+      "/roms/snes/jetpilotrising/screenshots/jetpilotrising.png"
+    ],
+    "detailsLink": "/roms/snes/jetpilotrising/",
+    "romLink": "/roms/snes/jetpilotrising/jetpilotrising.smc",
+    "authorString": "Dieter Von Laser (D4S)",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "nwarpdaisakusen",
+    "platform": "snes",
+    "title": "N-Warp Daisakusen",
+    "released": "2009-05-15",
+    "description": "N-Warp Daisakusen is a deathmatch minigame for eight human players. Connect two Multitaps and eight joypads to your SNES, invite some friends and compete for the first place by beating and kicking the shit out of the other players.",
+    "screenshots": [
+      "/roms/snes/nwarpdaisakusen/screenshots/nwarpdaisakusen.png"
+    ],
+    "detailsLink": "/roms/snes/nwarpdaisakusen/",
+    "romLink": "/roms/snes/nwarpdaisakusen/nwarpdaisakusen.smc",
+    "authorString": "Dieter Von Laser (D4S)",
+    "minPlayers": 8,
+    "maxPlayers": 8
+  },
+  {
+    "added": "2019-02-11",
+    "key": "questformoney",
+    "platform": "snes",
+    "title": "Uwol, Quest For Money",
+    "released": "2012-08-18",
+    "description": "Uwol is the adaptation of Uwol Question Money on ZX Spectrum.",
+    "screenshots": [
+      "/roms/snes/questformoney/screenshots/questformoney.png"
+    ],
+    "detailsLink": "/roms/snes/questformoney/",
+    "romLink": "/roms/snes/questformoney/questformoney.smc",
+    "authorString": "Alekmaul, Mojon Twins, KungfuFurby",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "rockfall",
+    "platform": "snes",
+    "title": "Rockfall",
+    "released": "1998-02-21",
+    "description": "Similar game to 'Exodus' game for NES. Exodus: The player controls the biblical figure Moses as he leads the Israelites to the promised land, meaning he goes through a labyrinth.",
+    "screenshots": [
+      "/roms/snes/rockfall/screenshots/rockfall.png"
+    ],
+    "detailsLink": "/roms/snes/rockfall/",
+    "romLink": "/roms/snes/rockfall/rockfall.smc",
+    "authorString": "Paul Lay, Harvey A. Kong Tin",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "saf",
+    "platform": "snes",
+    "title": "Skipp And Friends: Unexpected Journey",
+    "released": "2009-06-01",
+    "description": "The object of the game is to move all three characters to the EXIT in each level. Each player has 2 limited special abilities that you may use to help advance through the level. The in-game status bar displays the name of each ability and how many times it can be used during that level.\\nFor example, Apple's two abilities are CARDKEY and SCREAM. Using CARDKEY next to a door will cause it to open and detract one CARDKEY point (you need at least one point to open a door). Her SCREAM stuns nearby enemies for a short period of time.\\nAll three players must be alive and to the exit to complete the level. If you get yourself stuck, press START to pause and then SELECT to restart the level.\\nAfter you complete each level a 4 letter password is given to you so that you may resume the game using the Password option at the title screen, after your system has been shut off.",
+    "screenshots": [
+      "/roms/snes/saf/screenshots/saf.png"
+    ],
+    "detailsLink": "/roms/snes/saf/",
+    "romLink": "/roms/snes/saf/saf.smc",
+    "authorString": "Mukunda Johnson, Ken Snyder, Steven Velema, Hubert Lamontagne",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  },
+  {
+    "added": "2019-02-11",
+    "key": "superbossgaiden",
+    "platform": "snes",
+    "title": "Super Boss Gaiden",
+    "released": "2009-06-01",
+    "description": "This game is so much fun, wreck 'em all enemies in your way is so cool, the music is so great too.",
+    "screenshots": [
+      "/roms/snes/superbossgaiden/screenshots/superbossgaiden.png"
+    ],
+    "detailsLink": "/roms/snes/superbossgaiden/",
+    "romLink": "/roms/snes/superbossgaiden/superbossgaiden.smc",
+    "authorString": "Chrono Moogle and Dieter Von Laser (D4S)",
+    "minPlayers": 1,
+    "maxPlayers": 1
+  }
+]
