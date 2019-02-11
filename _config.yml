@@ -9,6 +9,10 @@ page_gen:
     name: key
     template: romdetail
     dir: roms/snes
+  - data: roms.gba
+    name: key
+    template: romdetail
+    dir: roms/gba
   - data: roms.nes
     name: key
     template: playrom
