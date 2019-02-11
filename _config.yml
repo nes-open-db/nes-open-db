@@ -5,6 +5,10 @@ page_gen:
     name: key
     template: romdetail
     dir: roms/nes
+  - data: roms.snes
+    name: key
+    template: romdetail
+    dir: roms/snes
   - data: roms.nes
     name: key
     template: playrom

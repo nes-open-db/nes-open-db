@@ -52,7 +52,7 @@ layout: default
     <p><a href="{{ rom.sourceCodeLink }}" class="pure-button pure-button-secondary">Download source code</a> <small>(.zip)</small></p>
     {% endif %}
 
-    {% if rom.runsOnJSNES or site.url == "http://localhost:4000" %}<p><a href="/play/{{rom.platform}}/{{rom.key}}" class="pure-button pure-button-primary">Play now</a></p>{% endif %}
+    {% if rom.runsOnJSNES %}<p><a href="/play/{{rom.platform}}/{{rom.key}}" class="pure-button pure-button-primary">Play now</a></p>{% endif %}
 
     {% if rom.description %}
     <h2>Description</h2>
